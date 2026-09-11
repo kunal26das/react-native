@@ -1,0 +1,65 @@
+{
+  "head": "fec597ba9fb51628b04206fb215ff9156084f535",
+  "trackedDiff": [],
+  "hostMismatches": [],
+  "artMismatches": [],
+  "hostTests": {
+    "tests": 39,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "artApi24": {
+    "mode": "differential-only",
+    "tests": 3,
+    "failures": 0,
+    "comparisons": 1023
+  },
+  "artApi37": {
+    "mode": "full",
+    "tests": 39,
+    "failures": 0,
+    "comparisons": 1023
+  },
+  "initialApi24FullRun": {
+    "tests": 39,
+    "failures": 36,
+    "cause": "AssertJ3.21 initialization requires java.time.LocalDateTime on API24; preserved separately"
+  },
+  "ownedDeviceCleanup": {
+    "commands": [
+      [
+        "<ANDROID_SDK>/cmdline-tools/latest/bin/avdmanager",
+        "delete",
+        "avd",
+        "--name",
+        "codex_multipart_comparison_api24"
+      ],
+      [
+        "<ANDROID_SDK>/cmdline-tools/latest/bin/avdmanager",
+        "delete",
+        "avd",
+        "--name",
+        "codex_multipart_comparison_api37"
+      ]
+    ],
+    "adbDevicesAfter": "List of devices attached\n\n",
+    "remainingOwnedAvds": [],
+    "deviceFilesRemovedBeforeShutdown": true,
+    "ownedEmulatorsStopped": [
+      5556,
+      5558
+    ]
+  },
+  "sources": [
+    "AndroidART.md",
+    "AndroidArtMain.java",
+    "AndroidComparison.kt",
+    "AndroidComparisonTest.kt",
+    "AndroidREADME.md",
+    "JniMultipart.cpp",
+    "JniMultipart.kt",
+    "run-android-art.py",
+    "run-android-comparison.py"
+  ]
+}

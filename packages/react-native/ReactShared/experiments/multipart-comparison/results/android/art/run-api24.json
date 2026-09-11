@@ -1,0 +1,46 @@
+{
+  "commands": [
+    [
+      "<ANDROID_SDK>/platform-tools/adb",
+      "-s",
+      "emulator-5556",
+      "shell",
+      "mkdir",
+      "-p",
+      "/data/local/tmp/rn-multipart-comparison-fec597b"
+    ],
+    [
+      "<ANDROID_SDK>/platform-tools/adb",
+      "-s",
+      "emulator-5556",
+      "push",
+      "<EVIDENCE>/android/art/dex/classes.dex",
+      "/data/local/tmp/rn-multipart-comparison-fec597b/classes.dex"
+    ],
+    [
+      "<ANDROID_SDK>/platform-tools/adb",
+      "-s",
+      "emulator-5556",
+      "push",
+      "<EVIDENCE>/android/art/libmultipart.so",
+      "/data/local/tmp/rn-multipart-comparison-fec597b/libmultipart.so"
+    ],
+    [
+      "<ANDROID_SDK>/platform-tools/adb",
+      "-s",
+      "emulator-5556",
+      "shell",
+      "chmod",
+      "444",
+      "/data/local/tmp/rn-multipart-comparison-fec597b/classes.dex"
+    ],
+    [
+      "<ANDROID_SDK>/platform-tools/adb",
+      "-s",
+      "emulator-5556",
+      "shell",
+      "CLASSPATH=/data/local/tmp/rn-multipart-comparison-fec597b/classes.dex /system/bin/app_process /data/local/tmp/rn-multipart-comparison-fec597b com.facebook.react.devsupport.AndroidArtMain /data/local/tmp/rn-multipart-comparison-fec597b/libmultipart.so"
+    ]
+  ],
+  "exitCode": 1
+}

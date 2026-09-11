@@ -1,0 +1,97 @@
+{
+  "sharedBenchmarkHarnessObjectSha256": "7f5f09330e0d0903c179551b2a792d2cd9ddcc125336f67c607e583b62dee79f",
+  "combinedKmpFrameworkSha256": "b7c36bfa69ce8b3b154b6ce8cfa02ca0cbe66717210f2bae0c0de2c9a23f4782",
+  "variants": {
+    "native": {
+      "binaryBytes": 73824,
+      "deltaFromNativeBytes": 0,
+      "runtimeClasses": [],
+      "linkedLibraries": [
+        "\t/System/Library/Frameworks/Foundation.framework/Foundation (compatibility version 300.0.0, current version 5026.5.4)",
+        "\t/System/Library/Frameworks/QuartzCore.framework/QuartzCore (compatibility version 1.2.0, current version 1195.14.4)",
+        "\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)",
+        "\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 2100.43.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)",
+        "\t/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (compatibility version 150.0.0, current version 5026.5.4)"
+      ],
+      "binarySha256": "f7add91207c677bc8cabf5324c9b31bc54801904e51e38f851cda4de94399d4e"
+    },
+    "optimized": {
+      "binaryBytes": 57072,
+      "deltaFromNativeBytes": -16752,
+      "runtimeClasses": [],
+      "linkedLibraries": [
+        "\t/System/Library/Frameworks/Foundation.framework/Foundation (compatibility version 300.0.0, current version 5026.5.4)",
+        "\t/System/Library/Frameworks/QuartzCore.framework/QuartzCore (compatibility version 1.2.0, current version 1195.14.4)",
+        "\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)",
+        "\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 2100.43.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)",
+        "\t/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (compatibility version 150.0.0, current version 5026.5.4)"
+      ],
+      "binarySha256": "ef1aec4345acc72a97a037fa477c9e870e11cb0c621af3e997c2834c0bd62776"
+    },
+    "cpp": {
+      "binaryBytes": 75248,
+      "deltaFromNativeBytes": 1424,
+      "runtimeClasses": [],
+      "linkedLibraries": [
+        "\t/System/Library/Frameworks/Foundation.framework/Foundation (compatibility version 300.0.0, current version 5026.5.4)",
+        "\t/System/Library/Frameworks/QuartzCore.framework/QuartzCore (compatibility version 1.2.0, current version 1195.14.4)",
+        "\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)",
+        "\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 2100.43.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)",
+        "\t/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (compatibility version 150.0.0, current version 5026.5.4)"
+      ],
+      "binarySha256": "0fd4292c9dae2f1e73c75bc234a0124e9fff2dc0a334aab9ec64b33e16e17cad"
+    },
+    "kmp": {
+      "binaryBytes": 906160,
+      "deltaFromNativeBytes": 832336,
+      "runtimeClasses": [
+        "RNSBase",
+        "RNSBoolean",
+        "RNSByte",
+        "RNSDouble",
+        "RNSFloat",
+        "RNSGradientStopInput",
+        "RNSGradientStops",
+        "RNSInt",
+        "RNSKotlinArray",
+        "RNSKotlinDoubleArray",
+        "RNSKotlinDoubleIterator",
+        "RNSKotlinEnum",
+        "RNSKotlinEnumCompanion",
+        "RNSKotlinSelectorsHolder",
+        "RNSLong",
+        "RNSMultipartChunk",
+        "RNSMultipartFraming",
+        "RNSMultipartHeader",
+        "RNSMultipartHeaders",
+        "RNSMutableDictionary",
+        "RNSMutableSet",
+        "RNSResolvedGradientStop",
+        "RNSScrollSnapDirection",
+        "RNSScrollSnapOffsets",
+        "RNSScrollSnapOffsetsCompanion",
+        "RNSScrollSnapResult",
+        "RNSShort",
+        "RNSUByte",
+        "RNSUInt",
+        "RNSULong",
+        "RNSUShort"
+      ],
+      "linkedLibraries": [
+        "\t/System/Library/Frameworks/Foundation.framework/Foundation (compatibility version 300.0.0, current version 5026.5.4)",
+        "\t/System/Library/Frameworks/QuartzCore.framework/QuartzCore (compatibility version 1.2.0, current version 1195.14.4)",
+        "\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)",
+        "\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 2100.43.0)",
+        "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)",
+        "\t/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (compatibility version 150.0.0, current version 5026.5.4)"
+      ],
+      "binarySha256": "0ac1bdea134101a7e41bf2bf36beba615cf8b602abb433f2dd14f74f33719f6d"
+    }
+  },
+  "nativeProductionAdapterSha256": "a82510d14c1edd7d710429daf09e1afbc9001a4ae53845d7b3cc804bf166bd08",
+  "cppCoreSha256": "93b597955eab64315c96381fe0f1a3b2baaf78c0dbc8a8edfd8ea67d0208c380",
+  "simulatorCleanupIndependentlyVerified": true
+}

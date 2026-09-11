@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.facebook.react.devsupport.AndroidKmpReaderTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-11T10:05:22.258Z" hostname="Kunals-MacBook-Pro.local" time="0.006">
+  <properties/>
+  <testcase name="testSimpleCase" classname="com.facebook.react.devsupport.AndroidKmpReaderTest" time="0.001"/>
+  <testcase name="testListenerDoesNotNeedToFullyReadBody" classname="com.facebook.react.devsupport.AndroidKmpReaderTest" time="0.0"/>
+  <testcase name="testFinalProgressForFragmentedBody" classname="com.facebook.react.devsupport.AndroidKmpReaderTest" time="0.002"/>
+  <testcase name="testNoDelimiter" classname="com.facebook.react.devsupport.AndroidKmpReaderTest" time="0.0"/>
+  <testcase name="testHeaderNamesAreCaseInsensitive" classname="com.facebook.react.devsupport.AndroidKmpReaderTest" time="0.0"/>
+  <testcase name="testMultipleParts" classname="com.facebook.react.devsupport.AndroidKmpReaderTest" time="0.0"/>
+  <testcase name="testDelimitersAcrossEveryReadBoundary" classname="com.facebook.react.devsupport.AndroidKmpReaderTest" time="0.002"/>
+  <testcase name="testNoCloseDelimiter" classname="com.facebook.react.devsupport.AndroidKmpReaderTest" time="0.0"/>
+  <testcase name="testHeaderWhitespaceDuplicatesAndColonValues" classname="com.facebook.react.devsupport.AndroidKmpReaderTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

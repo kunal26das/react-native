@@ -1,0 +1,323 @@
+{
+  "reviewedUtc": "2026-09-11T10:35:23.594574+00:00",
+  "scope": "Independent read-only source, generated-reader, method, provenance, raw-sample and report consistency review, supplemented by Android ART command/log/artifact and cleanup-record review. No new builds, tests, compilers, measurements or source changes during this review.",
+  "head": "fec597ba9fb51628b04206fb215ff9156084f535",
+  "baseline": "b150c6f7dd718c5b4a320fdecb06f2049b87b5c0",
+  "checks": {
+    "verifiedHashCounts": {
+      "sourceHashes": 11,
+      "generatedHashes": 12,
+      "artifactHashes": 37
+    },
+    "hashMismatches": [],
+    "junitCounts": {
+      "tests": 39,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "processes": [
+      {
+        "process": 1,
+        "rawSha256": "54a5eb1ea0afb6e5b41439809c03d3199747b5a8b2b9127314e6719fb083e8b4",
+        "sampleCount": 800,
+        "small1KiBTimeOrder": {
+          "NATIVE": {
+            "tenRoundMedianNanoseconds": [
+              3982.4140625,
+              3526.6953125,
+              3107.4140625,
+              4567.0625
+            ],
+            "tenRoundMedianJvmAllocatedBytes": [
+              4152.875,
+              4152.875,
+              4152.875,
+              4152.875
+            ]
+          },
+          "OPTIMIZED_NATIVE": {
+            "tenRoundMedianNanoseconds": [
+              2201.828125,
+              2202.1484375,
+              2114.2578125,
+              2118.4921875
+            ],
+            "tenRoundMedianJvmAllocatedBytes": [
+              2216.875,
+              2216.875,
+              2216.875,
+              2216.875
+            ]
+          },
+          "CPP_JNI": {
+            "tenRoundMedianNanoseconds": [
+              2741.859375,
+              2615.890625,
+              2741.859375,
+              2792.96875
+            ],
+            "tenRoundMedianJvmAllocatedBytes": [
+              2504.875,
+              2504.875,
+              2504.875,
+              2504.875
+            ]
+          },
+          "KMP": {
+            "tenRoundMedianNanoseconds": [
+              3104.171875,
+              2459.625,
+              2393.234375,
+              2396.15625
+            ],
+            "tenRoundMedianJvmAllocatedBytes": [
+              3632.875,
+              3632.875,
+              3632.875,
+              3632.875
+            ]
+          }
+        }
+      },
+      {
+        "process": 2,
+        "rawSha256": "3a0059449d0127a9eca9be70bfbc68db5c82de3af95e327bce076ec366ade7b5",
+        "sampleCount": 800,
+        "small1KiBTimeOrder": {
+          "NATIVE": {
+            "tenRoundMedianNanoseconds": [
+              3531.5703125,
+              3110.3515625,
+              2956.0546875,
+              2848.6328125
+            ],
+            "tenRoundMedianJvmAllocatedBytes": [
+              4152.875,
+              4152.875,
+              4152.875,
+              4152.875
+            ]
+          },
+          "OPTIMIZED_NATIVE": {
+            "tenRoundMedianNanoseconds": [
+              2155.28125,
+              2167.3125,
+              2060.2265625,
+              2081.0546875
+            ],
+            "tenRoundMedianJvmAllocatedBytes": [
+              2216.875,
+              2216.875,
+              2216.875,
+              2216.875
+            ]
+          },
+          "CPP_JNI": {
+            "tenRoundMedianNanoseconds": [
+              2628.25,
+              2826.5,
+              2693.6875,
+              2703.1171875
+            ],
+            "tenRoundMedianJvmAllocatedBytes": [
+              2504.875,
+              2504.875,
+              2504.875,
+              2504.875
+            ]
+          },
+          "KMP": {
+            "tenRoundMedianNanoseconds": [
+              3295.5703125,
+              2461.59375,
+              2548.5078125,
+              2413.09375
+            ],
+            "tenRoundMedianJvmAllocatedBytes": [
+              3696.875,
+              3632.875,
+              3632.875,
+              3632.875
+            ]
+          }
+        }
+      },
+      {
+        "process": 3,
+        "rawSha256": "6a44db12f11d14a08996b08dfac7f8a978e6ffe5aa94a57cdc076f27beed99a7",
+        "sampleCount": 800,
+        "small1KiBTimeOrder": {
+          "NATIVE": {
+            "tenRoundMedianNanoseconds": [
+              3575.203125,
+              3236.328125,
+              2994.4609375,
+              2991.8671875
+            ],
+            "tenRoundMedianJvmAllocatedBytes": [
+              4152.875,
+              4152.875,
+              4152.875,
+              4152.875
+            ]
+          },
+          "OPTIMIZED_NATIVE": {
+            "tenRoundMedianNanoseconds": [
+              2940.4296875,
+              2200.8515625,
+              2080.7265625,
+              2080.40625
+            ],
+            "tenRoundMedianJvmAllocatedBytes": [
+              2216.875,
+              2216.875,
+              2216.875,
+              2216.875
+            ]
+          },
+          "CPP_JNI": {
+            "tenRoundMedianNanoseconds": [
+              2823.890625,
+              2769.8515625,
+              2805.3359375,
+              2786.78125
+            ],
+            "tenRoundMedianJvmAllocatedBytes": [
+              2504.875,
+              2504.875,
+              2504.875,
+              2504.875
+            ]
+          },
+          "KMP": {
+            "tenRoundMedianNanoseconds": [
+              3236.6484375,
+              2304.0390625,
+              2789.71875,
+              2440.109375
+            ],
+            "tenRoundMedianJvmAllocatedBytes": [
+              3696.875,
+              3632.875,
+              3632.875,
+              3632.875
+            ]
+          }
+        }
+      }
+    ],
+    "summaryMediansAndPositionBalance": "match raw samples"
+  },
+  "findings": [
+    {
+      "type": "publication caveat",
+      "subject": "Fixed warmup is not established convergence",
+      "evidence": "Small-1KiB time-order quartiles continue to change after 24 warmup rounds, including allocation changes in KMP processes 2 and 3. See per-process quartiles.",
+      "recommendation": "Report the fixed 24-round warmup and per-process medians/spread. Do not call the measurements converged steady-state or intrinsic language/compiler costs; no extra measurement is required for the narrower report.",
+      "resolution": {
+        "status": "disclosed",
+        "location": "RESULTS.md, Android and Apple measurement sections",
+        "detail": "Final text explicitly says fixed warmup did not establish steady state, preserves all samples and gives numeric drift/outlier evidence; no further measurement or source edit requested."
+      }
+    },
+    {
+      "type": "reproduction command",
+      "subject": "Native baseline fetch assumes origin points at fork",
+      "source": "packages/react-native/ReactShared/experiments/multipart-comparison/README.md",
+      "observedCommand": "git fetch origin codex/multipart-header-bounds",
+      "recommendation": "Use explicit published fork URL or state the required remote; continue selecting pinned baseline SHA.",
+      "resolution": {
+        "status": "fixed",
+        "location": "README.md reproduction commands",
+        "detail": "Baseline fetch now names the published fork URL explicitly and retains the pinned baseline SHA."
+      }
+    }
+  ],
+  "assessment": "Controls support an honest bounded comparison of these concrete implementations. No normal-input correctness or unfair-transport blocker was found. KMP improves on the regex/split native baseline in small/header-heavy workloads but remains slower than the optimized-native scanner. Large-body ratios near one do not demonstrate a meaningful user-visible benefit.",
+  "publicationLimits": [
+    "Performance samples are host JDK 17 observations, not Android ART or physical-device timing. Supplementary ART parser correctness is separately verified in the explicitly reported API 24 and API 37 scopes.",
+    "Native C++ and JNI string/array allocations are excluded from JVM thread allocation counts; no total-memory ranking.",
+    "C++ ranges and optimized native trim before substring allocation; current KMP returns raw header strings. These represent API/implementation choices, not unavoidable language overhead.",
+    "Each implementation runs in shared-process randomized balanced rounds; three fresh JVMs provide repeat observations, not independent deployments or universal confidence.",
+    "Input/source creation is outside measurement; full parser body draining and callbacks remain inside. No network, app-startup, rendering or whole-app memory conclusion.",
+    "Final progress values and exceptions are tested; intermediate wall-clock-throttled progress callback counts/timing are not compared."
+  ],
+  "finalResultsReview": {
+    "reviewedUtc": "2026-09-11T10:35:23.594574+00:00",
+    "docsSha256": {
+      "RESULTS.md": "58ead02e14a602621a76716b50f2404753325cd65325bb270d7b8a29004af373",
+      "README.md": "f363c943591786ce61d59d8515792df22dac00a16b690a4a134acbcfb915c820",
+      "METHOD.md": "143140b7bb8355ed1974fab0a23561887c92bde7691a12beaadce6440bf9200b",
+      "ADOPTION.md": "b065154fafbf3e686ffbbcc7f540e60cf8b1d393aa0e5adb66e6450bcd6c4391",
+      "AndroidART.md": "fad5604cbe94f77f8857dbf43ee894b7297a0b969f33d60bcdb06106a6b8fadf",
+      "results/README.md": "549c7f9ec2ccc02701b0c7c370a35945100da12db9dadc5010e238cf3f083c01"
+    },
+    "androidTable": "All 25 timing ranges/ratios exactly match rounded process medians from verified raw samples.",
+    "appleTable": "All 20 timing ranges/ratios exactly match rounded corresponding-round medians; 1536 raw samples and positional balance independently recomputed.",
+    "roundingCorrections": "Apple KMP/optimized-native lower bounds corrected to 1.011 for 2 MiB and 1.038 for progress-plus-bundle. No conclusion changed.",
+    "appleCorrectnessAndBinaryScope": "Published test counts and binary bytes/deltas match parity.json and binary-evidence.json; combined three-feature Kotlin archive scope is explicit.",
+    "warmupAndMemoryInterpretation": "Residual drift, host JVM/simulator scope, native allocation exclusions and representation differences are disclosed.",
+    "reproduction": "Shown CLI flags/paths match current parsers; explicit fork baseline fetch fixes remote assumption. Commands were read, not executed again.",
+    "externalSourceLinks": "Linked maintainer/platform documentation was not re-fetched during this source-and-numeric review.",
+    "blockingFindings": [],
+    "supplementaryArtReview": {
+      "reviewedUtc": "2026-09-11T10:35:23.594574+00:00",
+      "scope": "Read retained commands, logs, source-mode diff, properties, provenance and cleanup records; independently checked hashes. No execution rerun and no timing table rerun.",
+      "runs": [
+        {
+          "evidence": "run-api24",
+          "tests": 39,
+          "failures": 36,
+          "skipped": 0,
+          "differentialComparisons": 1023,
+          "exitCode": 1,
+          "logSha256": "a8a0a3f0a1117a5c1b97ba4f0cd2dc761a7c5434e0ad6850b0b32fb0b4800b95",
+          "commandRecordSha256": "7a3757c3d1c437f19e45e949fac4ff041768fa78f58ecad5fbdb996ca57729ee"
+        },
+        {
+          "evidence": "run-api24-differential",
+          "tests": 3,
+          "failures": 0,
+          "skipped": 0,
+          "differentialComparisons": 1023,
+          "exitCode": 0,
+          "logSha256": "51e3cc1e39e57e6248c21f1484190f24138641684da704d71a4b03bbd0ed2f6d",
+          "commandRecordSha256": "b1cd60e682055bb1a048148bc075af1520633297c7b653629c0c9ae1d8fddb70"
+        },
+        {
+          "evidence": "run-api37",
+          "tests": 39,
+          "failures": 0,
+          "skipped": 0,
+          "differentialComparisons": 1023,
+          "exitCode": 0,
+          "logSha256": "42354b7b2b176c8ba04d476ddec04b8b95a4e5db23f6a9e68e8987d8092b88fc",
+          "commandRecordSha256": "ad98b467f1645ea1b1b38fad00f70514082201e2ce4cf6fc410368e9cab7f398"
+        }
+      ],
+      "api24InitialFailureClassification": "All 36 distinct failure trace blocks reference AssertJ initialization and java.time.LocalDateTime. Initial failure, original entry source/dex and native artifact remain retained; not relabeled as parser passes.",
+      "entryPoint": "Final source adds an explicit differential-only mode and exact passing-count/ignore-count guards; actual adapter/test classes remain unchanged. No host benchmark entry point is invoked.",
+      "provenanceHashChecks": {
+        "provenance.json": 98,
+        "final-fixture/provenance.json": 98
+      },
+      "hashMismatches": [],
+      "originalEntrySourceMapping": "Initial provenance AndroidArtMain.java hash verified against preserved AndroidArtMain-initial.java; final entry verified against current source.",
+      "deviceScope": "Saved properties report API 24/Android 7.0 and API 37/Android 17, both arm64-v8a with boot complete. app_process shell execution is bounded parser correctness, not app/R8/network integration or ART performance.",
+      "cleanupRecord": {
+        "sha256": "6f2f96c0571de3b223078e712df3652dc46017e60919ba4aa49753b74e543aca",
+        "ownedEmulatorsStopped": [
+          5556,
+          5558
+        ],
+        "remainingOwnedAvds": [],
+        "deviceFilesRemovedBeforeShutdown": true,
+        "adbDevicesAfter": "List of devices attached\n\n",
+        "verification": "Read the recorded cleanup; did not rerun adb or create devices."
+      },
+      "documentation": "RESULTS.md, README.md, AndroidART.md and results/README.md accurately separate API 24 differential-only and API 37 full-suite success from the retained API 24 assertion-library failure and from host timing.",
+      "blockingFindings": []
+    }
+  }
+}

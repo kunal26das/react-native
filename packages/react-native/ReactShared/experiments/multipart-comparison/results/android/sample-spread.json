@@ -1,0 +1,602 @@
+[
+  {
+    "process": 1,
+    "workload": "small-1KiB",
+    "implementation": "NATIVE",
+    "min": 2733.71875,
+    "median": 3558.2734375,
+    "p95": 6167.3125,
+    "max": 12143.234375,
+    "maxOverMedian": 3.412676003767628
+  },
+  {
+    "process": 1,
+    "workload": "small-1KiB",
+    "implementation": "OPTIMIZED_NATIVE",
+    "min": 1986.328125,
+    "median": 2146.8125,
+    "p95": 3127.609375,
+    "max": 4492.1875,
+    "maxOverMedian": 2.092491775597543
+  },
+  {
+    "process": 1,
+    "workload": "small-1KiB",
+    "implementation": "CPP_JNI",
+    "min": 2486.328125,
+    "median": 2746.09375,
+    "p95": 4290.359375,
+    "max": 5180.328125,
+    "maxOverMedian": 1.8864352773826458
+  },
+  {
+    "process": 1,
+    "workload": "small-1KiB",
+    "implementation": "KMP",
+    "min": 2085.9375,
+    "median": 2486.984375,
+    "p95": 4643.21875,
+    "max": 4772.78125,
+    "maxOverMedian": 1.9191038343375197
+  },
+  {
+    "process": 1,
+    "workload": "bundle-2MiB",
+    "implementation": "NATIVE",
+    "min": 2119292.0,
+    "median": 2155854.5,
+    "p95": 2381792.0,
+    "max": 2873000.0,
+    "maxOverMedian": 1.3326502321933136
+  },
+  {
+    "process": 1,
+    "workload": "bundle-2MiB",
+    "implementation": "OPTIMIZED_NATIVE",
+    "min": 2091834.0,
+    "median": 2148771.0,
+    "p95": 2395416.0,
+    "max": 2605250.0,
+    "maxOverMedian": 1.2124372490135058
+  },
+  {
+    "process": 1,
+    "workload": "bundle-2MiB",
+    "implementation": "CPP_JNI",
+    "min": 2077083.0,
+    "median": 2165583.0,
+    "p95": 2572708.0,
+    "max": 3583042.0,
+    "maxOverMedian": 1.6545392164604174
+  },
+  {
+    "process": 1,
+    "workload": "bundle-2MiB",
+    "implementation": "KMP",
+    "min": 2072084.0,
+    "median": 2135979.0,
+    "p95": 2370084.0,
+    "max": 2608375.0,
+    "maxOverMedian": 1.2211613503690812
+  },
+  {
+    "process": 1,
+    "workload": "bundle-20MiB",
+    "implementation": "NATIVE",
+    "min": 21086459.0,
+    "median": 21236250.0,
+    "p95": 21381791.0,
+    "max": 21484000.0,
+    "maxOverMedian": 1.011666372358585
+  },
+  {
+    "process": 1,
+    "workload": "bundle-20MiB",
+    "implementation": "OPTIMIZED_NATIVE",
+    "min": 21071500.0,
+    "median": 21245791.5,
+    "p95": 21378666.0,
+    "max": 22953459.0,
+    "maxOverMedian": 1.0803767419067443
+  },
+  {
+    "process": 1,
+    "workload": "bundle-20MiB",
+    "implementation": "CPP_JNI",
+    "min": 21199375.0,
+    "median": 21321333.5,
+    "p95": 21490708.0,
+    "max": 21698584.0,
+    "maxOverMedian": 1.0176935696822151
+  },
+  {
+    "process": 1,
+    "workload": "bundle-20MiB",
+    "implementation": "KMP",
+    "min": 21086792.0,
+    "median": 21256833.5,
+    "p95": 21417583.0,
+    "max": 22222916.0,
+    "maxOverMedian": 1.0454480908457038
+  },
+  {
+    "process": 1,
+    "workload": "many-128x1KiB",
+    "implementation": "NATIVE",
+    "min": 187062.5,
+    "median": 193573.0,
+    "p95": 204916.5,
+    "max": 225145.5,
+    "maxOverMedian": 1.1631038419614306
+  },
+  {
+    "process": 1,
+    "workload": "many-128x1KiB",
+    "implementation": "OPTIMIZED_NATIVE",
+    "min": 148125.0,
+    "median": 153510.5,
+    "p95": 158396.0,
+    "max": 165625.0,
+    "maxOverMedian": 1.078916425912234
+  },
+  {
+    "process": 1,
+    "workload": "many-128x1KiB",
+    "implementation": "CPP_JNI",
+    "min": 206625.0,
+    "median": 211812.5,
+    "p95": 228812.5,
+    "max": 235312.5,
+    "maxOverMedian": 1.1109471820596046
+  },
+  {
+    "process": 1,
+    "workload": "many-128x1KiB",
+    "implementation": "KMP",
+    "min": 163854.0,
+    "median": 166708.25,
+    "p95": 170271.0,
+    "max": 201646.0,
+    "maxOverMedian": 1.209574211234297
+  },
+  {
+    "process": 1,
+    "workload": "progress-128x128B-plus-2MiB",
+    "implementation": "NATIVE",
+    "min": 2125042.0,
+    "median": 2165562.5,
+    "p95": 2192709.0,
+    "max": 2223250.0,
+    "maxOverMedian": 1.0266385754278622
+  },
+  {
+    "process": 1,
+    "workload": "progress-128x128B-plus-2MiB",
+    "implementation": "OPTIMIZED_NATIVE",
+    "min": 2102792.0,
+    "median": 2149562.5,
+    "p95": 2193042.0,
+    "max": 2258125.0,
+    "maxOverMedian": 1.050504463117495
+  },
+  {
+    "process": 1,
+    "workload": "progress-128x128B-plus-2MiB",
+    "implementation": "CPP_JNI",
+    "min": 2136583.0,
+    "median": 2204520.5,
+    "p95": 2235458.0,
+    "max": 2254250.0,
+    "maxOverMedian": 1.0225579666870868
+  },
+  {
+    "process": 1,
+    "workload": "progress-128x128B-plus-2MiB",
+    "implementation": "KMP",
+    "min": 2113833.0,
+    "median": 2153458.5,
+    "p95": 2185584.0,
+    "max": 2188541.0,
+    "maxOverMedian": 1.01629123570294
+  },
+  {
+    "process": 2,
+    "workload": "small-1KiB",
+    "implementation": "NATIVE",
+    "min": 2732.421875,
+    "median": 3082.03125,
+    "p95": 4272.140625,
+    "max": 4929.03125,
+    "maxOverMedian": 1.5992801013941698
+  },
+  {
+    "process": 2,
+    "workload": "small-1KiB",
+    "implementation": "OPTIMIZED_NATIVE",
+    "min": 1968.09375,
+    "median": 2108.078125,
+    "p95": 2499.34375,
+    "max": 2696.609375,
+    "maxOverMedian": 1.2791790508238399
+  },
+  {
+    "process": 2,
+    "workload": "small-1KiB",
+    "implementation": "CPP_JNI",
+    "min": 2466.140625,
+    "median": 2688.8046875,
+    "p95": 3659.5,
+    "max": 4011.71875,
+    "maxOverMedian": 1.4920082401857238
+  },
+  {
+    "process": 2,
+    "workload": "small-1KiB",
+    "implementation": "KMP",
+    "min": 2097.0,
+    "median": 2565.765625,
+    "p95": 4111.96875,
+    "max": 11839.203125,
+    "maxOverMedian": 4.614296414934626
+  },
+  {
+    "process": 2,
+    "workload": "bundle-2MiB",
+    "implementation": "NATIVE",
+    "min": 2084958.0,
+    "median": 2139687.5,
+    "p95": 2173208.0,
+    "max": 2217916.0,
+    "maxOverMedian": 1.0365607127208996
+  },
+  {
+    "process": 2,
+    "workload": "bundle-2MiB",
+    "implementation": "OPTIMIZED_NATIVE",
+    "min": 2075792.0,
+    "median": 2120312.5,
+    "p95": 2163208.0,
+    "max": 2171042.0,
+    "maxOverMedian": 1.0239254826823876
+  },
+  {
+    "process": 2,
+    "workload": "bundle-2MiB",
+    "implementation": "CPP_JNI",
+    "min": 2098834.0,
+    "median": 2134166.5,
+    "p95": 2181166.0,
+    "max": 2195500.0,
+    "maxOverMedian": 1.0287388542552796
+  },
+  {
+    "process": 2,
+    "workload": "bundle-2MiB",
+    "implementation": "KMP",
+    "min": 2086917.0,
+    "median": 2127062.5,
+    "p95": 2155959.0,
+    "max": 2223959.0,
+    "maxOverMedian": 1.045554138630153
+  },
+  {
+    "process": 2,
+    "workload": "bundle-20MiB",
+    "implementation": "NATIVE",
+    "min": 21171292.0,
+    "median": 21321104.0,
+    "p95": 22004667.0,
+    "max": 22309084.0,
+    "maxOverMedian": 1.0463381258306323
+  },
+  {
+    "process": 2,
+    "workload": "bundle-20MiB",
+    "implementation": "OPTIMIZED_NATIVE",
+    "min": 21168750.0,
+    "median": 21286104.0,
+    "p95": 22069833.0,
+    "max": 25745417.0,
+    "maxOverMedian": 1.2094940906048377
+  },
+  {
+    "process": 2,
+    "workload": "bundle-20MiB",
+    "implementation": "CPP_JNI",
+    "min": 21296834.0,
+    "median": 21417583.0,
+    "p95": 21668417.0,
+    "max": 22125959.0,
+    "maxOverMedian": 1.0330745070533869
+  },
+  {
+    "process": 2,
+    "workload": "bundle-20MiB",
+    "implementation": "KMP",
+    "min": 21179916.0,
+    "median": 21303104.0,
+    "p95": 23423083.0,
+    "max": 24295084.0,
+    "maxOverMedian": 1.1404480774257122
+  },
+  {
+    "process": 2,
+    "workload": "many-128x1KiB",
+    "implementation": "NATIVE",
+    "min": 189833.5,
+    "median": 195271.0,
+    "p95": 222000.0,
+    "max": 228292.0,
+    "maxOverMedian": 1.16910345110129
+  },
+  {
+    "process": 2,
+    "workload": "many-128x1KiB",
+    "implementation": "OPTIMIZED_NATIVE",
+    "min": 148167.0,
+    "median": 154291.5,
+    "p95": 176958.0,
+    "max": 180604.0,
+    "maxOverMedian": 1.1705375863219944
+  },
+  {
+    "process": 2,
+    "workload": "many-128x1KiB",
+    "implementation": "CPP_JNI",
+    "min": 205917.0,
+    "median": 211458.25,
+    "p95": 234479.0,
+    "max": 263166.5,
+    "maxOverMedian": 1.2445317219829446
+  },
+  {
+    "process": 2,
+    "workload": "many-128x1KiB",
+    "implementation": "KMP",
+    "min": 163437.5,
+    "median": 168968.75,
+    "p95": 177479.0,
+    "max": 414021.0,
+    "maxOverMedian": 2.4502814869613463
+  },
+  {
+    "process": 2,
+    "workload": "progress-128x128B-plus-2MiB",
+    "implementation": "NATIVE",
+    "min": 2141750.0,
+    "median": 2164354.0,
+    "p95": 2205375.0,
+    "max": 2205833.0,
+    "maxOverMedian": 1.0191646098558738
+  },
+  {
+    "process": 2,
+    "workload": "progress-128x128B-plus-2MiB",
+    "implementation": "OPTIMIZED_NATIVE",
+    "min": 2123791.0,
+    "median": 2148958.0,
+    "p95": 2169750.0,
+    "max": 2184291.0,
+    "maxOverMedian": 1.0164419220850291
+  },
+  {
+    "process": 2,
+    "workload": "progress-128x128B-plus-2MiB",
+    "implementation": "CPP_JNI",
+    "min": 2180667.0,
+    "median": 2211229.0,
+    "p95": 2230292.0,
+    "max": 2242542.0,
+    "maxOverMedian": 1.0141609032804835
+  },
+  {
+    "process": 2,
+    "workload": "progress-128x128B-plus-2MiB",
+    "implementation": "KMP",
+    "min": 2117000.0,
+    "median": 2157146.0,
+    "p95": 2173625.0,
+    "max": 2184291.0,
+    "maxOverMedian": 1.0125837565004872
+  },
+  {
+    "process": 3,
+    "workload": "small-1KiB",
+    "implementation": "NATIVE",
+    "min": 2735.671875,
+    "median": 3205.40625,
+    "p95": 4057.296875,
+    "max": 5057.9375,
+    "maxOverMedian": 1.5779396137385082
+  },
+  {
+    "process": 3,
+    "workload": "small-1KiB",
+    "implementation": "OPTIMIZED_NATIVE",
+    "min": 2053.390625,
+    "median": 2125.9765625,
+    "p95": 3044.265625,
+    "max": 3610.015625,
+    "maxOverMedian": 1.6980505282498852
+  },
+  {
+    "process": 3,
+    "workload": "small-1KiB",
+    "implementation": "CPP_JNI",
+    "min": 2481.109375,
+    "median": 2793.9375,
+    "p95": 3706.375,
+    "max": 3916.65625,
+    "maxOverMedian": 1.401841039751247
+  },
+  {
+    "process": 3,
+    "workload": "small-1KiB",
+    "implementation": "KMP",
+    "min": 2085.9375,
+    "median": 2608.71875,
+    "p95": 3701.8125,
+    "max": 4535.8125,
+    "maxOverMedian": 1.738712730147702
+  },
+  {
+    "process": 3,
+    "workload": "bundle-2MiB",
+    "implementation": "NATIVE",
+    "min": 2111417.0,
+    "median": 2143708.5,
+    "p95": 2192500.0,
+    "max": 2201167.0,
+    "maxOverMedian": 1.0268033177085412
+  },
+  {
+    "process": 3,
+    "workload": "bundle-2MiB",
+    "implementation": "OPTIMIZED_NATIVE",
+    "min": 2082250.0,
+    "median": 2133833.5,
+    "p95": 2169750.0,
+    "max": 2179708.0,
+    "maxOverMedian": 1.0214986314536725
+  },
+  {
+    "process": 3,
+    "workload": "bundle-2MiB",
+    "implementation": "CPP_JNI",
+    "min": 2104250.0,
+    "median": 2142166.5,
+    "p95": 2175041.0,
+    "max": 2176666.0,
+    "maxOverMedian": 1.0161049572944028
+  },
+  {
+    "process": 3,
+    "workload": "bundle-2MiB",
+    "implementation": "KMP",
+    "min": 2108083.0,
+    "median": 2127187.5,
+    "p95": 2157375.0,
+    "max": 2171417.0,
+    "maxOverMedian": 1.0207924783311297
+  },
+  {
+    "process": 3,
+    "workload": "bundle-20MiB",
+    "implementation": "NATIVE",
+    "min": 21176584.0,
+    "median": 21258250.0,
+    "p95": 21366000.0,
+    "max": 21422209.0,
+    "maxOverMedian": 1.0077127232956617
+  },
+  {
+    "process": 3,
+    "workload": "bundle-20MiB",
+    "implementation": "OPTIMIZED_NATIVE",
+    "min": 21069125.0,
+    "median": 21245416.5,
+    "p95": 21325375.0,
+    "max": 21331791.0,
+    "maxOverMedian": 1.0040655592701606
+  },
+  {
+    "process": 3,
+    "workload": "bundle-20MiB",
+    "implementation": "CPP_JNI",
+    "min": 21247958.0,
+    "median": 21363979.0,
+    "p95": 21441167.0,
+    "max": 23831208.0,
+    "maxOverMedian": 1.1154854627033663
+  },
+  {
+    "process": 3,
+    "workload": "bundle-20MiB",
+    "implementation": "KMP",
+    "min": 21175833.0,
+    "median": 21253395.5,
+    "p95": 21317208.0,
+    "max": 21389000.0,
+    "maxOverMedian": 1.0063803687274346
+  },
+  {
+    "process": 3,
+    "workload": "many-128x1KiB",
+    "implementation": "NATIVE",
+    "min": 188625.0,
+    "median": 203395.5,
+    "p95": 213958.0,
+    "max": 220416.5,
+    "maxOverMedian": 1.083684250634847
+  },
+  {
+    "process": 3,
+    "workload": "many-128x1KiB",
+    "implementation": "OPTIMIZED_NATIVE",
+    "min": 149208.0,
+    "median": 154802.25,
+    "p95": 172708.5,
+    "max": 385125.0,
+    "maxOverMedian": 2.4878514362678836
+  },
+  {
+    "process": 3,
+    "workload": "many-128x1KiB",
+    "implementation": "CPP_JNI",
+    "min": 206770.5,
+    "median": 212395.75,
+    "p95": 225000.0,
+    "max": 249333.0,
+    "maxOverMedian": 1.173907669998105
+  },
+  {
+    "process": 3,
+    "workload": "many-128x1KiB",
+    "implementation": "KMP",
+    "min": 164770.5,
+    "median": 168146.0,
+    "p95": 173604.0,
+    "max": 179437.5,
+    "maxOverMedian": 1.0671529504121418
+  },
+  {
+    "process": 3,
+    "workload": "progress-128x128B-plus-2MiB",
+    "implementation": "NATIVE",
+    "min": 2129083.0,
+    "median": 2163229.5,
+    "p95": 2185209.0,
+    "max": 2195542.0,
+    "maxOverMedian": 1.0149371576155004
+  },
+  {
+    "process": 3,
+    "workload": "progress-128x128B-plus-2MiB",
+    "implementation": "OPTIMIZED_NATIVE",
+    "min": 2109083.0,
+    "median": 2142520.5,
+    "p95": 2158666.0,
+    "max": 2186375.0,
+    "maxOverMedian": 1.0204686489580848
+  },
+  {
+    "process": 3,
+    "workload": "progress-128x128B-plus-2MiB",
+    "implementation": "CPP_JNI",
+    "min": 2173209.0,
+    "median": 2212124.5,
+    "p95": 2234375.0,
+    "max": 2268917.0,
+    "maxOverMedian": 1.0256732837595715
+  },
+  {
+    "process": 3,
+    "workload": "progress-128x128B-plus-2MiB",
+    "implementation": "KMP",
+    "min": 2117250.0,
+    "median": 2150854.5,
+    "p95": 2169166.0,
+    "max": 2181417.0,
+    "maxOverMedian": 1.0142094688413372
+  }
+]

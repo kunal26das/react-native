@@ -1,0 +1,24 @@
+{
+  "host": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "recordedAt": "2026-09-11T10:08:43.848452+00:00",
+  "phase": "post-measurement",
+  "rawFiles": [
+    {
+      "name": "jvm-process-1.jsonl",
+      "bytes": 144055,
+      "modifiedUtc": "2026-09-11T10:06:56.607501+00:00"
+    },
+    {
+      "name": "jvm-process-2.jsonl",
+      "bytes": 144037,
+      "modifiedUtc": "2026-09-11T10:07:03.943489+00:00"
+    },
+    {
+      "name": "jvm-process-3.jsonl",
+      "bytes": 144062,
+      "modifiedUtc": "2026-09-11T10:07:11.252204+00:00"
+    }
+  ],
+  "taskCoordination": "Root granted exclusive task benchmark window; no other task-owned builds/measurements; normal system activity remains uncontrolled"
+}

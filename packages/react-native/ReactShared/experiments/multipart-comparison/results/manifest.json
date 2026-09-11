@@ -1,0 +1,487 @@
+{
+  "scope": "Selected published measurement evidence; binaries, caches, full generated fixtures, and large deterministic core corpora are omitted.",
+  "pathNormalization": {
+    "original checkout path": "<REPO>",
+    "original evidence path": "<EVIDENCE>",
+    "original task workspace path": "<TASK_WORKSPACE>",
+    "original Gradle cache path": "<GRADLE_USER_HOME>",
+    "original Android SDK path": "<ANDROID_SDK>",
+    "original user home path": "<USER_HOME>"
+  },
+  "files": [
+    {
+      "path": "android/benchmark-summary.json",
+      "bytes": 20078,
+      "sha256": "e15d8553e23b58ab759d7d61471b2ca8249bd2c5cf9550ef1a415037c74c9e8b",
+      "originalSha256": "4dd03324893009819fae3fde0e8bfa5d2fb7ba09e0068dde8b4ff6386862e6ff",
+      "localPathNormalizationApplied": true
+    },
+    {
+      "path": "android/sample-spread.json",
+      "bytes": 13645,
+      "sha256": "acd9297c747e4fdec20287a1548a3553acb78316a62ac9c8a02a8a916bcdb732",
+      "originalSha256": "acd9297c747e4fdec20287a1548a3553acb78316a62ac9c8a02a8a916bcdb732",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/provenance.json",
+      "bytes": 14000,
+      "sha256": "5c09682eb5db1d2324868045d2e50f867fb01ed9090ad1eafc208edd726225f1",
+      "originalSha256": "96f5448734697e05e79c2971ea320cbc320a6b13be235019a4b1b6c6c57e8830",
+      "localPathNormalizationApplied": true
+    },
+    {
+      "path": "android/measurement-host.json",
+      "bytes": 720,
+      "sha256": "ff2f456daa8fa12721a1158fd261b0f26312bfe144d21be9ae520f6da2b4adac",
+      "originalSha256": "ff2f456daa8fa12721a1158fd261b0f26312bfe144d21be9ae520f6da2b4adac",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/post-measurement-provenance-check.json",
+      "bytes": 177,
+      "sha256": "bc9ad63e9d2181b9ea5b355011c3217d8aab8fcf8e45ac6b37972f3d3aac695c",
+      "originalSha256": "bc9ad63e9d2181b9ea5b355011c3217d8aab8fcf8e45ac6b37972f3d3aac695c",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/gradle-test.log",
+      "bytes": 611,
+      "sha256": "b5f83c26ca07a3a5d0d89ff94958c5e3a3ce8fee1a1746daf48b677c8b4ae866",
+      "originalSha256": "b5f83c26ca07a3a5d0d89ff94958c5e3a3ce8fee1a1746daf48b677c8b4ae866",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/warmup-drift.json",
+      "bytes": 2497,
+      "sha256": "b44679bd627197a126c00fa34410b21bfb4eebb3ca12c1c3b82ce3fa9bc370be",
+      "originalSha256": "b44679bd627197a126c00fa34410b21bfb4eebb3ca12c1c3b82ce3fa9bc370be",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/final-android-summary.json",
+      "bytes": 1453,
+      "sha256": "f5caed7815ec103e1de0e1c754bfa792afd4efd770e3ed1322a53bd1e1674e7d",
+      "originalSha256": "3a1a81280dc9a531ed11afc5222bf5adfbb3fddb09597215738cd5c675d71dc8",
+      "localPathNormalizationApplied": true
+    },
+    {
+      "path": "android/jvm-process-1.jsonl",
+      "bytes": 144055,
+      "sha256": "54a5eb1ea0afb6e5b41439809c03d3199747b5a8b2b9127314e6719fb083e8b4",
+      "originalSha256": "54a5eb1ea0afb6e5b41439809c03d3199747b5a8b2b9127314e6719fb083e8b4",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/jvm-process-1.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/jvm-process-2.jsonl",
+      "bytes": 144037,
+      "sha256": "3a0059449d0127a9eca9be70bfbc68db5c82de3af95e327bce076ec366ade7b5",
+      "originalSha256": "3a0059449d0127a9eca9be70bfbc68db5c82de3af95e327bce076ec366ade7b5",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/jvm-process-2.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/jvm-process-3.jsonl",
+      "bytes": 144062,
+      "sha256": "6a44db12f11d14a08996b08dfac7f8a978e6ffe5aa94a57cdc076f27beed99a7",
+      "originalSha256": "6a44db12f11d14a08996b08dfac7f8a978e6ffe5aa94a57cdc076f27beed99a7",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/jvm-process-3.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/junit/TEST-com.facebook.react.devsupport.AndroidComparisonTest.xml",
+      "bytes": 834,
+      "sha256": "264c002f4332237ad05b7d6fce27e976b1d3a7a352c39bd5f56f6df1956ddf43",
+      "originalSha256": "264c002f4332237ad05b7d6fce27e976b1d3a7a352c39bd5f56f6df1956ddf43",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/junit/TEST-com.facebook.react.devsupport.AndroidCppReaderTest.xml",
+      "bytes": 1477,
+      "sha256": "0c289e73767ed4f8060645780dd4491de03221e27d994af2a4d169834935d076",
+      "originalSha256": "0c289e73767ed4f8060645780dd4491de03221e27d994af2a4d169834935d076",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/junit/TEST-com.facebook.react.devsupport.AndroidKmpReaderTest.xml",
+      "bytes": 1474,
+      "sha256": "37bd9373059b65fd1d38ebf08fd2b0dff18bcc236cc22533b2513ef67de3532b",
+      "originalSha256": "37bd9373059b65fd1d38ebf08fd2b0dff18bcc236cc22533b2513ef67de3532b",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/junit/TEST-com.facebook.react.devsupport.AndroidNativeReaderTest.xml",
+      "bytes": 1502,
+      "sha256": "9bb137c2dee99fc4f67b0d1787d027b81f129525031acb61e1b0bef11ccb72e7",
+      "originalSha256": "9bb137c2dee99fc4f67b0d1787d027b81f129525031acb61e1b0bef11ccb72e7",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/junit/TEST-com.facebook.react.devsupport.AndroidOptimizedReaderTest.xml",
+      "bytes": 1536,
+      "sha256": "95c469c799f23485d736de26d497947baea891a217c624d4a1668bdd5ef8830e",
+      "originalSha256": "95c469c799f23485d736de26d497947baea891a217c624d4a1668bdd5ef8830e",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/art/provenance.json",
+      "bytes": 23587,
+      "sha256": "e5d72a9dc6ccc377e9d1299438e7bef292f26026802939df99e2f0ca00d35206",
+      "originalSha256": "a8c61fe4420693d9a05ee5375062dd5fe45887fabe8cf97bd87931c6485b8fbf",
+      "localPathNormalizationApplied": true
+    },
+    {
+      "path": "android/art/final-fixture/provenance.json",
+      "bytes": 23699,
+      "sha256": "8a9ebf105cd71e2b1f6e32ae0ce07a6676c27b5b3eecf0a31b50f581ad505fbd",
+      "originalSha256": "689a4b9160b52347b9977fd5e3beddafb60f01b7829f1c6fbcb40c6ff055df2d",
+      "localPathNormalizationApplied": true
+    },
+    {
+      "path": "android/art/run-api24.json",
+      "bytes": 1237,
+      "sha256": "053191b161e5e7d6e97d4ab8cd42638443cf4ec3f3877cbea0820638effa618d",
+      "originalSha256": "7a3757c3d1c437f19e45e949fac4ff041768fa78f58ecad5fbdb996ca57729ee",
+      "localPathNormalizationApplied": true
+    },
+    {
+      "path": "android/art/run-api24.log",
+      "bytes": 178707,
+      "sha256": "a8a0a3f0a1117a5c1b97ba4f0cd2dc761a7c5434e0ad6850b0b32fb0b4800b95",
+      "originalSha256": "a8a0a3f0a1117a5c1b97ba4f0cd2dc761a7c5434e0ad6850b0b32fb0b4800b95",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/art/run-api24-differential.json",
+      "bytes": 875,
+      "sha256": "8ecb78816b28972d3e9035c8f3785a07c3d04c858d5251e8711b8db2e6380aef",
+      "originalSha256": "b1cd60e682055bb1a048148bc075af1520633297c7b653629c0c9ae1d8fddb70",
+      "localPathNormalizationApplied": true
+    },
+    {
+      "path": "android/art/run-api24-differential.log",
+      "bytes": 130,
+      "sha256": "51e3cc1e39e57e6248c21f1484190f24138641684da704d71a4b03bbd0ed2f6d",
+      "originalSha256": "51e3cc1e39e57e6248c21f1484190f24138641684da704d71a4b03bbd0ed2f6d",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/art/run-api37.json",
+      "bytes": 1265,
+      "sha256": "a81b615ea2cf3b368bf1a9589f13154e096662c14930a8b6bfc6e755244de89d",
+      "originalSha256": "ad98b467f1645ea1b1b38fad00f70514082201e2ce4cf6fc410368e9cab7f398",
+      "localPathNormalizationApplied": true
+    },
+    {
+      "path": "android/art/run-api37.log",
+      "bytes": 118,
+      "sha256": "42354b7b2b176c8ba04d476ddec04b8b95a4e5db23f6a9e68e8987d8092b88fc",
+      "originalSha256": "42354b7b2b176c8ba04d476ddec04b8b95a4e5db23f6a9e68e8987d8092b88fc",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "android/art/emulator-api24.json",
+      "bytes": 835,
+      "sha256": "e26796a6d5f86067727cb21fedd3d340d143ed22a5c4c23475b4ef28ce7c1191",
+      "originalSha256": "8f5c4207cdf06482e2b7d4bbe08d5cc68b9f17f1db961f8d5fa68c9456dfcb67",
+      "localPathNormalizationApplied": true
+    },
+    {
+      "path": "android/art/emulator-api37.json",
+      "bytes": 858,
+      "sha256": "da2ea6b1bdd4cb31c8f00d18543e71d9b93ce735e47c9b41b9c7e2d94b789460",
+      "originalSha256": "9cc28e36b1869b4c2418482f1a3689590e5888b546a66aede24de6ddd541da13",
+      "localPathNormalizationApplied": true
+    },
+    {
+      "path": "android/art/cleanup.json",
+      "bytes": 517,
+      "sha256": "52db16ac0c62eb8cdc34bec91c42fe772c82a167103942e6e25889c64642a425",
+      "originalSha256": "6f2f96c0571de3b223078e712df3652dc46017e60919ba4aa49753b74e543aca",
+      "localPathNormalizationApplied": true
+    },
+    {
+      "path": "android/art/AndroidArtMain-initial.java",
+      "bytes": 1312,
+      "sha256": "00c634484bf66f91902663e91f41777cf0797ea0540727bb40d0a1a836cb4011",
+      "originalSha256": "00c634484bf66f91902663e91f41777cf0797ea0540727bb40d0a1a836cb4011",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/parity.json",
+      "bytes": 2043,
+      "sha256": "61b8008024266f41f95efe9ec3d47a38884e954e473171d7a35404e3eccf4a13",
+      "originalSha256": "61b8008024266f41f95efe9ec3d47a38884e954e473171d7a35404e3eccf4a13",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/provenance.json",
+      "bytes": 26755,
+      "sha256": "001ca6aed5d919d00a435ccb9df987d576c257ee7cde193b9b34ccd6fd8be551",
+      "originalSha256": "8cbefd4e10ec70674cdc67817384cba438c194dce94c250fb88d6597fd83999e",
+      "localPathNormalizationApplied": true
+    },
+    {
+      "path": "apple/measurement-host.json",
+      "bytes": 23957,
+      "sha256": "def52b14da57dd2bce503e39e5c0ce6034dc2dda73623b59c6bdba6af01deac2",
+      "originalSha256": "def52b14da57dd2bce503e39e5c0ce6034dc2dda73623b59c6bdba6af01deac2",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/sample-stability.json",
+      "bytes": 19689,
+      "sha256": "8e42f7c6ba1e48e9dbfd28188049e4f512af3268141fbcb070d5a50db20d93dc",
+      "originalSha256": "8e42f7c6ba1e48e9dbfd28188049e4f512af3268141fbcb070d5a50db20d93dc",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/binary-evidence.json",
+      "bytes": 4988,
+      "sha256": "78e0f6d1d60a3d4e9d483dc8d84c79361cdb3aa1eca3ffdcb79ac7a968d17bd5",
+      "originalSha256": "78e0f6d1d60a3d4e9d483dc8d84c79361cdb3aa1eca3ffdcb79ac7a968d17bd5",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/1-cpp.log",
+      "bytes": 7441,
+      "sha256": "657db08c14a3aff6c97335d43e5e14b44d2a2e1b8b935d3ece2a14fb74eaa3aa",
+      "originalSha256": "657db08c14a3aff6c97335d43e5e14b44d2a2e1b8b935d3ece2a14fb74eaa3aa",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/1-kmp.log",
+      "bytes": 7433,
+      "sha256": "eb686ba6b31cf9937ff35dada897fd1b36aeb20ce9192b8ff9f3110304256134",
+      "originalSha256": "eb686ba6b31cf9937ff35dada897fd1b36aeb20ce9192b8ff9f3110304256134",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/1-native.log",
+      "bytes": 7439,
+      "sha256": "d6487851d5d53fcc088beab75dc3b7cb8b9b7103099cbbdd5fda658304df6298",
+      "originalSha256": "d6487851d5d53fcc088beab75dc3b7cb8b9b7103099cbbdd5fda658304df6298",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/1-optimized.log",
+      "bytes": 7451,
+      "sha256": "50048d66449fce2627f934e261b04faadf01cc49209ef02daaf796e1515cddbb",
+      "originalSha256": "50048d66449fce2627f934e261b04faadf01cc49209ef02daaf796e1515cddbb",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/2-cpp.log",
+      "bytes": 7441,
+      "sha256": "93fb5331b5a8ae8cfb455354ce8b50508bacf56d61e321bcc25319d797cb4556",
+      "originalSha256": "93fb5331b5a8ae8cfb455354ce8b50508bacf56d61e321bcc25319d797cb4556",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/2-kmp.log",
+      "bytes": 7440,
+      "sha256": "a96c7b7f88ece6d39888147f3d246dca3010bd32d7725513b0bff1752951ec75",
+      "originalSha256": "a96c7b7f88ece6d39888147f3d246dca3010bd32d7725513b0bff1752951ec75",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/2-native.log",
+      "bytes": 7445,
+      "sha256": "19322a5c4c5a35b96a60b545a6a6f36142fa130725ed031d084cc32720804e03",
+      "originalSha256": "19322a5c4c5a35b96a60b545a6a6f36142fa130725ed031d084cc32720804e03",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/2-optimized.log",
+      "bytes": 7449,
+      "sha256": "b640d3e804f91f6322a524a08fe8fe72eea4c6e6613cb281c589b4290942a80b",
+      "originalSha256": "b640d3e804f91f6322a524a08fe8fe72eea4c6e6613cb281c589b4290942a80b",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/3-cpp.log",
+      "bytes": 7442,
+      "sha256": "23a6b8120211025a5479c6d0d899a8fb4a417e7431b0c041c38763281d80921e",
+      "originalSha256": "23a6b8120211025a5479c6d0d899a8fb4a417e7431b0c041c38763281d80921e",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/3-kmp.log",
+      "bytes": 7435,
+      "sha256": "455b1bd7599d5f4d0ad6d790f2340a94a51ae373924396d8fb1c16ca801552d3",
+      "originalSha256": "455b1bd7599d5f4d0ad6d790f2340a94a51ae373924396d8fb1c16ca801552d3",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/3-native.log",
+      "bytes": 7446,
+      "sha256": "b478de8568da4ad776bec928dda63afeca7d3c7880493a88d627687dd2d8bde5",
+      "originalSha256": "b478de8568da4ad776bec928dda63afeca7d3c7880493a88d627687dd2d8bde5",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/3-optimized.log",
+      "bytes": 7448,
+      "sha256": "a0f41589925c032b5ef28ab53757522a4e929da7e2cce27ab4762f87258a312f",
+      "originalSha256": "a0f41589925c032b5ef28ab53757522a4e929da7e2cce27ab4762f87258a312f",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/4-cpp.log",
+      "bytes": 7444,
+      "sha256": "a51d8de56e9b088cefcc95052c29c50d3fde3e9670d812fcd3bbbc77b7a4e263",
+      "originalSha256": "a51d8de56e9b088cefcc95052c29c50d3fde3e9670d812fcd3bbbc77b7a4e263",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/4-kmp.log",
+      "bytes": 7441,
+      "sha256": "1841a6f0cdc00ec89791cf9ef94bbea851e26626f587527b9a28bc4648ffc71b",
+      "originalSha256": "1841a6f0cdc00ec89791cf9ef94bbea851e26626f587527b9a28bc4648ffc71b",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/4-native.log",
+      "bytes": 7444,
+      "sha256": "e53141e5d05ff1169370369fd2313d1e9033935ab285627f67a07f82a6f544a3",
+      "originalSha256": "e53141e5d05ff1169370369fd2313d1e9033935ab285627f67a07f82a6f544a3",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/4-optimized.log",
+      "bytes": 7443,
+      "sha256": "bae19a1bcde7a17580b274f5fe12e4f50a0e15d4769b73627127e16b4fc59b48",
+      "originalSha256": "bae19a1bcde7a17580b274f5fe12e4f50a0e15d4769b73627127e16b4fc59b48",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/measured/summary.json",
+      "bytes": 236594,
+      "sha256": "6b23cfffd15c4d05410533ae3e6957d0093e071291c0b5c83121f5da0793e803",
+      "originalSha256": "c1e547b0c979065e845476865273987f0afcfcd5b9119b007bc82c9b2289468b",
+      "localPathNormalizationApplied": true
+    },
+    {
+      "path": "apple/parity-logs/xctest-cpp.log",
+      "bytes": 1878,
+      "sha256": "d8351e0a4268c6f48ba7a9abd57179c3f337d597876f71608b4634cfa1cf955d",
+      "originalSha256": "d8351e0a4268c6f48ba7a9abd57179c3f337d597876f71608b4634cfa1cf955d",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/parity-logs/xctest-kmp.log",
+      "bytes": 1878,
+      "sha256": "3b4ea8f611f4f15f38ff5c43f51f14d67721d97678a1f97bec18dcbc5a9dd345",
+      "originalSha256": "3b4ea8f611f4f15f38ff5c43f51f14d67721d97678a1f97bec18dcbc5a9dd345",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/parity-logs/xctest-native.log",
+      "bytes": 1884,
+      "sha256": "c7e317067ef8f0073f54eb9b536aa831aeec3849fd5d2c27c08c40637c51124a",
+      "originalSha256": "c7e317067ef8f0073f54eb9b536aa831aeec3849fd5d2c27c08c40637c51124a",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/parity-logs/xctest-optimized.log",
+      "bytes": 1890,
+      "sha256": "9b104e45836f41726d6bb683c8499381a156c621c7445d2f634eb7e162d0e1bd",
+      "originalSha256": "9b104e45836f41726d6bb683c8499381a156c621c7445d2f634eb7e162d0e1bd",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/parity-logs/existing-parity-cpp.log",
+      "bytes": 52,
+      "sha256": "29cb7505fe1764546bc2f052c7c7796ed9c4977ab9fbecd4a9b7c8afddc1adcf",
+      "originalSha256": "29cb7505fe1764546bc2f052c7c7796ed9c4977ab9fbecd4a9b7c8afddc1adcf",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/parity-logs/existing-parity-kmp.log",
+      "bytes": 52,
+      "sha256": "29cb7505fe1764546bc2f052c7c7796ed9c4977ab9fbecd4a9b7c8afddc1adcf",
+      "originalSha256": "29cb7505fe1764546bc2f052c7c7796ed9c4977ab9fbecd4a9b7c8afddc1adcf",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/parity-logs/existing-parity-native.log",
+      "bytes": 52,
+      "sha256": "29cb7505fe1764546bc2f052c7c7796ed9c4977ab9fbecd4a9b7c8afddc1adcf",
+      "originalSha256": "29cb7505fe1764546bc2f052c7c7796ed9c4977ab9fbecd4a9b7c8afddc1adcf",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/parity-logs/existing-parity-optimized.log",
+      "bytes": 52,
+      "sha256": "29cb7505fe1764546bc2f052c7c7796ed9c4977ab9fbecd4a9b7c8afddc1adcf",
+      "originalSha256": "29cb7505fe1764546bc2f052c7c7796ed9c4977ab9fbecd4a9b7c8afddc1adcf",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/parity-logs/extra-parity-cpp.log",
+      "bytes": 161,
+      "sha256": "8ec0adfab9883f7bf44dd39eb824d5b1af8ab742c35bd26271f754c0cb111c9a",
+      "originalSha256": "8ec0adfab9883f7bf44dd39eb824d5b1af8ab742c35bd26271f754c0cb111c9a",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/parity-logs/extra-parity-kmp.log",
+      "bytes": 161,
+      "sha256": "8ec0adfab9883f7bf44dd39eb824d5b1af8ab742c35bd26271f754c0cb111c9a",
+      "originalSha256": "8ec0adfab9883f7bf44dd39eb824d5b1af8ab742c35bd26271f754c0cb111c9a",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/parity-logs/extra-parity-native.log",
+      "bytes": 161,
+      "sha256": "8ec0adfab9883f7bf44dd39eb824d5b1af8ab742c35bd26271f754c0cb111c9a",
+      "originalSha256": "8ec0adfab9883f7bf44dd39eb824d5b1af8ab742c35bd26271f754c0cb111c9a",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "apple/parity-logs/extra-parity-optimized.log",
+      "bytes": 161,
+      "sha256": "8ec0adfab9883f7bf44dd39eb824d5b1af8ab742c35bd26271f754c0cb111c9a",
+      "originalSha256": "8ec0adfab9883f7bf44dd39eb824d5b1af8ab742c35bd26271f754c0cb111c9a",
+      "localPathNormalizationApplied": false
+    },
+    {
+      "path": "core/results.json",
+      "bytes": 1444,
+      "sha256": "5cfb1c0a224d959d900b11f265b207faebc17136ff2c3da0d088d0590e4ea7ba",
+      "originalSha256": "7d76cdcd392319c1419acb3ffc22828f7a4399536d22942279d26d6f6fe9b7a1",
+      "localPathNormalizationApplied": true
+    },
+    {
+      "path": "core/differential-digests.json",
+      "sha256": "32b4043785fd2b3b62ccfbf335f6339e31322c8ee10236bfd7c670dc07bdc4ec",
+      "bytes": 1655
+    },
+    {
+      "path": "read-only-review.json",
+      "bytes": 13641,
+      "sha256": "dbb09ab71e4c532826efb3152d6cf294d03304f767984d7f68e561ab3e50c3a4",
+      "originalSha256": "dbb09ab71e4c532826efb3152d6cf294d03304f767984d7f68e561ab3e50c3a4",
+      "localPathNormalizationApplied": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "codex_multipart_comparison_api24",
+  "pid": 7939,
+  "serial": "emulator-5556",
+  "commands": [
+    [
+      "<ANDROID_SDK>/cmdline-tools/latest/bin/avdmanager",
+      "create",
+      "avd",
+      "--name",
+      "codex_multipart_comparison_api24",
+      "--package",
+      "system-images;android-24;default;arm64-v8a",
+      "--device",
+      "pixel_2",
+      "--path",
+      "<EVIDENCE>/android/art/avds/codex_multipart_comparison_api24.avd"
+    ],
+    [
+      "<ANDROID_SDK>/emulator/emulator",
+      "-avd",
+      "codex_multipart_comparison_api24",
+      "-port",
+      "5556",
+      "-no-window",
+      "-no-audio",
+      "-no-boot-anim",
+      "-no-snapshot",
+      "-gpu",
+      "swiftshader_indirect",
+      "-memory",
+      "1536",
+      "-cores",
+      "2"
+    ]
+  ],
+  "avdHome": "<EVIDENCE>/android/art/avds"
+}

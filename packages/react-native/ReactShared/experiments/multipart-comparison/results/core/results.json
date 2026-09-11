@@ -1,0 +1,38 @@
+{
+  "validation": "passed",
+  "framingStateMachines": 4096,
+  "framingTransitions": 65536,
+  "stateQueries": 131072,
+  "headerCases": 10009,
+  "streamFragmentationAndRetentionCases": 462,
+  "uint16AndChar16RangeEquivalenceCases": 10009,
+  "independentExpectedStateQueriesAndChunks": 9,
+  "sanitizers": [
+    "address",
+    "undefined"
+  ],
+  "compilerCommand": [
+    "clang++",
+    "-std=c++17",
+    "-O1",
+    "-g",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fsanitize=address,undefined",
+    "-fno-sanitize-recover=all",
+    "-fno-omit-frame-pointer",
+    "-I",
+    "<REPO>/packages/react-native/ReactShared/experiments/multipart-comparison",
+    "<EVIDENCE>/core-final/core-test.cpp",
+    "-o",
+    "<EVIDENCE>/core-final/core-test"
+  ],
+  "coreHeaderSha256": "93b597955eab64315c96381fe0f1a3b2baaf78c0dbc8a8edfd8ea67d0208c380",
+  "kotlinSourceSha256": "9bdef42a39a546d124d5f325a3dd06aab71ed9fd99df668b4008bdb02bc32216",
+  "sharedJar": "<REPO>/packages/react-native/ReactShared/build/android/react-native-shared.jar",
+  "sharedJarSha256": "f86f47db03954a95c70ef3db4ffa26ed05995e388c0e762ff8ec702d5da8dadc",
+  "stdlibJar": "<GRADLE_USER_HOME>/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.4.20/94c1451890d164aed65d43b3db0b7ecef7c183e7/kotlin-stdlib-2.4.20.jar",
+  "output": "<EVIDENCE>/core-final",
+  "scope": "Core behavior only: no JNI, Objective-C interop, I/O, trimming, dictionary policy or performance claims."
+}

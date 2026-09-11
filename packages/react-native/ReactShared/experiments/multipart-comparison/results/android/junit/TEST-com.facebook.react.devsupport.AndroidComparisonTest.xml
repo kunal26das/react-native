@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.facebook.react.devsupport.AndroidComparisonTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-11T10:05:21.937Z" hostname="Kunals-MacBook-Pro.local" time="0.284">
+  <properties/>
+  <testcase name="callbackExceptionDrainsBodyWithoutClosingSource" classname="com.facebook.react.devsupport.AndroidComparisonTest" time="0.168"/>
+  <testcase name="ioExceptionAndProgressCallbackExceptionPropagate" classname="com.facebook.react.devsupport.AndroidComparisonTest" time="0.007"/>
+  <testcase name="fullParserDifferentialAcrossFragmentsAndMalformedUtf8" classname="com.facebook.react.devsupport.AndroidComparisonTest" time="0.107"/>
+  <system-out><![CDATA[ANDROID_DIFFERENTIAL_COMPARISONS=1023
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

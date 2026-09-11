@@ -1,0 +1,23 @@
+Test Suite 'All tests' started at 2026-09-11 15:40:39.469.
+Test Suite 'Multipart-optimized.xctest' started at 2026-09-11 15:40:39.470.
+Test Suite 'RCTMultipartStreamReaderTests' started at 2026-09-11 15:40:39.470.
+Test Case '-[RCTMultipartStreamReaderTests testDelimitersAcrossEveryReadBoundary]' started.
+Test Case '-[RCTMultipartStreamReaderTests testDelimitersAcrossEveryReadBoundary]' passed (0.001 seconds).
+Test Case '-[RCTMultipartStreamReaderTests testFinalProgressForFragmentedBody]' started.
+Test Case '-[RCTMultipartStreamReaderTests testFinalProgressForFragmentedBody]' passed (0.001 seconds).
+Test Case '-[RCTMultipartStreamReaderTests testHeaderWhitespaceDuplicatesAndColonValues]' started.
+Test Case '-[RCTMultipartStreamReaderTests testHeaderWhitespaceDuplicatesAndColonValues]' passed (0.000 seconds).
+Test Case '-[RCTMultipartStreamReaderTests testMultipleParts]' started.
+Test Case '-[RCTMultipartStreamReaderTests testMultipleParts]' passed (0.000 seconds).
+Test Case '-[RCTMultipartStreamReaderTests testNoCloseDelimiter]' started.
+Test Case '-[RCTMultipartStreamReaderTests testNoCloseDelimiter]' passed (0.000 seconds).
+Test Case '-[RCTMultipartStreamReaderTests testNoDelimiter]' started.
+Test Case '-[RCTMultipartStreamReaderTests testNoDelimiter]' passed (0.000 seconds).
+Test Case '-[RCTMultipartStreamReaderTests testSimpleCase]' started.
+Test Case '-[RCTMultipartStreamReaderTests testSimpleCase]' passed (0.000 seconds).
+Test Suite 'RCTMultipartStreamReaderTests' passed at 2026-09-11 15:40:39.473.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+Test Suite 'Multipart-optimized.xctest' passed at 2026-09-11 15:40:39.473.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+Test Suite 'All tests' passed at 2026-09-11 15:40:39.473.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.002 (0.004) seconds

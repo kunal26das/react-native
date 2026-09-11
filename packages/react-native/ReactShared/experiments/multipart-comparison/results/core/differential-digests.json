@@ -1,0 +1,55 @@
+{
+  "scope": "Large deterministic corpora and outputs remain reproducible with run-core-tests.py; these are original file digests.",
+  "files": [
+    {
+      "name": "differential-input.txt",
+      "bytes": 7762675,
+      "sha256": "31c0710f9b52f1f0d6f2573c47eabcc9ce462298a16c8492107313d924b7f9ad"
+    },
+    {
+      "name": "cpp.stdout",
+      "bytes": 7610192,
+      "sha256": "adcbca5ecc7815d11bfc0a0199862e091a148134b430ba4629fc3efeba802fd9"
+    },
+    {
+      "name": "kotlin.stdout",
+      "bytes": 7610192,
+      "sha256": "adcbca5ecc7815d11bfc0a0199862e091a148134b430ba4629fc3efeba802fd9"
+    },
+    {
+      "name": "cpp.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "kotlin.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "stream-input.txt",
+      "bytes": 103442,
+      "sha256": "98f251b724c69785af7a0da9e3178e1343a4b94f345858ef38b59c574b7bceb6"
+    },
+    {
+      "name": "stream.stdout",
+      "bytes": 27786,
+      "sha256": "566264a4b3f6aa07088c90147aba4d72bd57fa744321559f3cea2d73db2c06ff"
+    },
+    {
+      "name": "stream.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "known-states.stdout",
+      "bytes": 79,
+      "sha256": "179ee0d539840b07158901179c4a646c0ce1410ce8f2ee6a577071f73efb579a"
+    },
+    {
+      "name": "known-kotlin-states.stdout",
+      "bytes": 79,
+      "sha256": "179ee0d539840b07158901179c4a646c0ce1410ce8f2ee6a577071f73efb579a"
+    }
+  ]
+}

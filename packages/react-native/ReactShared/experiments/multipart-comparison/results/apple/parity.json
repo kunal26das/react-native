@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "simulator": {
+    "udid": "6DD85907-F5F0-4F83-A53C-05724B8C4781",
+    "runtime": "com.apple.CoreSimulator.SimRuntime.iOS-26-5"
+  },
+  "variants": {
+    "native": {
+      "xctestPasses": 7,
+      "existingParityCases": 232,
+      "extraParity": {
+        "headerCases": 131,
+        "streamCases": 2255,
+        "failures": 0,
+        "progressScope": "final progress per completed part; wall-clock-throttled intermediate event counts excluded"
+      },
+      "benchmarkBinaryBytes": 73824,
+      "benchmarkBinarySha256": "f7add91207c677bc8cabf5324c9b31bc54801904e51e38f851cda4de94399d4e"
+    },
+    "optimized": {
+      "xctestPasses": 7,
+      "existingParityCases": 232,
+      "extraParity": {
+        "headerCases": 131,
+        "streamCases": 2255,
+        "failures": 0,
+        "progressScope": "final progress per completed part; wall-clock-throttled intermediate event counts excluded"
+      },
+      "benchmarkBinaryBytes": 57072,
+      "benchmarkBinarySha256": "ef1aec4345acc72a97a037fa477c9e870e11cb0c621af3e997c2834c0bd62776"
+    },
+    "cpp": {
+      "xctestPasses": 7,
+      "existingParityCases": 232,
+      "extraParity": {
+        "headerCases": 131,
+        "streamCases": 2255,
+        "failures": 0,
+        "progressScope": "final progress per completed part; wall-clock-throttled intermediate event counts excluded"
+      },
+      "benchmarkBinaryBytes": 75248,
+      "benchmarkBinarySha256": "0fd4292c9dae2f1e73c75bc234a0124e9fff2dc0a334aab9ec64b33e16e17cad"
+    },
+    "kmp": {
+      "xctestPasses": 7,
+      "existingParityCases": 232,
+      "extraParity": {
+        "headerCases": 131,
+        "streamCases": 2255,
+        "failures": 0,
+        "progressScope": "final progress per completed part; wall-clock-throttled intermediate event counts excluded"
+      },
+      "benchmarkBinaryBytes": 906160,
+      "benchmarkBinarySha256": "0ac1bdea134101a7e41bf2bf36beba615cf8b602abb433f2dd14f74f33719f6d"
+    }
+  },
+  "cppCatalystCompiledWithoutKotlin": true,
+  "ownedSimulatorDeleted": true
+}

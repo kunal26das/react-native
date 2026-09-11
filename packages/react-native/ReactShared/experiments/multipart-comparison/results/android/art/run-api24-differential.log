@@ -1,0 +1,2 @@
+ANDROID_DIFFERENTIAL_COMPARISONS=1023
+ANDROID_ART_PARITY api=24 abi=arm64-v8a mode=differential-only tests=3 failures=0 skipped=0

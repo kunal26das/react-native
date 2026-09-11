@@ -1,0 +1,25 @@
+{
+  "commands": [
+    [
+      "<ANDROID_SDK>/cmdline-tools/latest/bin/avdmanager",
+      "delete",
+      "avd",
+      "--name",
+      "codex_multipart_comparison_api24"
+    ],
+    [
+      "<ANDROID_SDK>/cmdline-tools/latest/bin/avdmanager",
+      "delete",
+      "avd",
+      "--name",
+      "codex_multipart_comparison_api37"
+    ]
+  ],
+  "adbDevicesAfter": "List of devices attached\n\n",
+  "remainingOwnedAvds": [],
+  "deviceFilesRemovedBeforeShutdown": true,
+  "ownedEmulatorsStopped": [
+    5556,
+    5558
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "head": "fec597ba9fb51628b04206fb215ff9156084f535",
+  "baseline": "b150c6f7dd718c5b4a320fdecb06f2049b87b5c0",
+  "processes": [
+    {
+      "process": 1,
+      "environment": {
+        "kind": "environment",
+        "seed": 47017,
+        "javaVersion": "17.0.20",
+        "vm": "OpenJDK 64-Bit Server VM",
+        "warmupRounds": 24,
+        "sampleRounds": 40,
+        "allocations": "JVM current-thread allocations; excludes all native/JNI allocations"
+      },
+      "rawSha256": "54a5eb1ea0afb6e5b41439809c03d3199747b5a8b2b9127314e6719fb083e8b4",
+      "workloads": [
+        {
+          "workload": "small-1KiB",
+          "medians": {
+            "NATIVE": {
+              "nsPerParse": 3558.2734375,
+              "jvmBytesPerParse": 4152.875
+            },
+            "OPTIMIZED_NATIVE": {
+              "nsPerParse": 2146.8125,
+              "jvmBytesPerParse": 2216.875
+            },
+            "CPP_JNI": {
+              "nsPerParse": 2746.09375,
+              "jvmBytesPerParse": 2504.875
+            },
+            "KMP": {
+              "nsPerParse": 2486.984375,
+              "jvmBytesPerParse": 3632.875
+            }
+          },
+          "latencyRatiosToNative": {
+            "NATIVE": 1.0,
+            "OPTIMIZED_NATIVE": 0.6033298277122638,
+            "CPP_JNI": 0.7717489389824331,
+            "KMP": 0.698930090304506
+          },
+          "latencyRatiosToOptimizedNative": {
+            "NATIVE": 1.657468194125011,
+            "OPTIMIZED_NATIVE": 1.0,
+            "CPP_JNI": 1.2791493202131066,
+            "KMP": 1.1584543945966403
+          }
+        },
+        {
+          "workload": "bundle-2MiB",
+          "medians": {
+            "NATIVE": {
+              "nsPerParse": 2155854.5,
+              "jvmBytesPerParse": 12112.0
+            },
+            "OPTIMIZED_NATIVE": {
+              "nsPerParse": 2148771.0,
+              "jvmBytesPerParse": 9824.0
+            },
+            "CPP_JNI": {
+              "nsPerParse": 2165583.0,
+              "jvmBytesPerParse": 10064.0
+            },
+            "KMP": {
+              "nsPerParse": 2135979.0,
+              "jvmBytesPerParse": 10920.0
+            }
+          },
+          "latencyRatiosToNative": {
+            "NATIVE": 1.0,
+            "OPTIMIZED_NATIVE": 0.9967142958859236,
+            "CPP_JNI": 1.004512595817575,
+            "KMP": 0.9907806858023118
+          },
+          "latencyRatiosToOptimizedNative": {
+            "NATIVE": 1.00329653555451,
+            "OPTIMIZED_NATIVE": 1.0,
+            "CPP_JNI": 1.0078240073046407,
+            "KMP": 0.994046829559781
+          }
+        },
+        {
+          "workload": "bundle-20MiB",
+          "medians": {
+            "NATIVE": {
+              "nsPerParse": 21236250.0,
+              "jvmBytesPerParse": 11984.0
+            },
+            "OPTIMIZED_NATIVE": {
+              "nsPerParse": 21245791.5,
+              "jvmBytesPerParse": 9824.0
+            },
+            "CPP_JNI": {
+              "nsPerParse": 21321333.5,
+              "jvmBytesPerParse": 10064.0
+            },
+            "KMP": {
+              "nsPerParse": 21256833.5,
+              "jvmBytesPerParse": 10896.0
+            }
+          },
+          "latencyRatiosToNative": {
+            "NATIVE": 1.0,
+            "OPTIMIZED_NATIVE": 1.0004493024898464,
+            "CPP_JNI": 1.0040065218670904,
+            "KMP": 1.0009692624639472
+          },
+          "latencyRatiosToOptimizedNative": {
+            "NATIVE": 0.9995508992922199,
+            "OPTIMIZED_NATIVE": 1.0,
+            "CPP_JNI": 1.0035556218275041,
+            "KMP": 1.0005197264597085
+          }
+        },
+        {
+          "workload": "many-128x1KiB",
+          "medians": {
+            "NATIVE": {
+              "nsPerParse": 193573.0,
+              "jvmBytesPerParse": 469996.0
+            },
+            "OPTIMIZED_NATIVE": {
+              "nsPerParse": 153510.5,
+              "jvmBytesPerParse": 230636.0
+            },
+            "CPP_JNI": {
+              "nsPerParse": 211812.5,
+              "jvmBytesPerParse": 254428.0
+            },
+            "KMP": {
+              "nsPerParse": 166708.25,
+              "jvmBytesPerParse": 413196.0
+            }
+          },
+          "latencyRatiosToNative": {
+            "NATIVE": 1.0,
+            "OPTIMIZED_NATIVE": 0.7930367354951362,
+            "CPP_JNI": 1.0942254343322675,
+            "KMP": 0.8612164403093406
+          },
+          "latencyRatiosToOptimizedNative": {
+            "NATIVE": 1.2609756335885818,
+            "OPTIMIZED_NATIVE": 1.0,
+            "CPP_JNI": 1.379791610345872,
+            "KMP": 1.085972946475974
+          }
+        },
+        {
+          "workload": "progress-128x128B-plus-2MiB",
+          "medians": {
+            "NATIVE": {
+              "nsPerParse": 2165562.5,
+              "jvmBytesPerParse": 313168.0
+            },
+            "OPTIMIZED_NATIVE": {
+              "nsPerParse": 2149562.5,
+              "jvmBytesPerParse": 145488.0
+            },
+            "CPP_JNI": {
+              "nsPerParse": 2204520.5,
+              "jvmBytesPerParse": 160208.0
+            },
+            "KMP": {
+              "nsPerParse": 2153458.5,
+              "jvmBytesPerParse": 250256.0
+            }
+          },
+          "latencyRatiosToNative": {
+            "NATIVE": 1.0,
+            "OPTIMIZED_NATIVE": 0.9926116193829547,
+            "CPP_JNI": 1.017989783254928,
+            "KMP": 0.9944106900632053
+          },
+          "latencyRatiosToOptimizedNative": {
+            "NATIVE": 1.0074433751053993,
+            "OPTIMIZED_NATIVE": 1.0,
+            "CPP_JNI": 1.0255670630651585,
+            "KMP": 1.0018124618381647
+          }
+        }
+      ]
+    },
+    {
+      "process": 2,
+      "environment": {
+        "kind": "environment",
+        "seed": 48014,
+        "javaVersion": "17.0.20",
+        "vm": "OpenJDK 64-Bit Server VM",
+        "warmupRounds": 24,
+        "sampleRounds": 40,
+        "allocations": "JVM current-thread allocations; excludes all native/JNI allocations"
+      },
+      "rawSha256": "3a0059449d0127a9eca9be70bfbc68db5c82de3af95e327bce076ec366ade7b5",
+      "workloads": [
+        {
+          "workload": "small-1KiB",
+          "medians": {
+            "NATIVE": {
+              "nsPerParse": 3082.03125,
+              "jvmBytesPerParse": 4152.875
+            },
+            "OPTIMIZED_NATIVE": {
+              "nsPerParse": 2108.078125,
+              "jvmBytesPerParse": 2216.875
+            },
+            "CPP_JNI": {
+              "nsPerParse": 2688.8046875,
+              "jvmBytesPerParse": 2504.875
+            },
+            "KMP": {
+              "nsPerParse": 2565.765625,
+              "jvmBytesPerParse": 3632.875
+            }
+          },
+          "latencyRatiosToNative": {
+            "NATIVE": 1.0,
+            "OPTIMIZED_NATIVE": 0.6839898605830165,
+            "CPP_JNI": 0.8724131812420786,
+            "KMP": 0.8324917617237009
+          },
+          "latencyRatiosToOptimizedNative": {
+            "NATIVE": 1.4620099765040728,
+            "OPTIMIZED_NATIVE": 1.0,
+            "CPP_JNI": 1.2754767746095748,
+            "KMP": 1.217111260997502
+          }
+        },
+        {
+          "workload": "bundle-2MiB",
+          "medians": {
+            "NATIVE": {
+              "nsPerParse": 2139687.5,
+              "jvmBytesPerParse": 12112.0
+            },
+            "OPTIMIZED_NATIVE": {
+              "nsPerParse": 2120312.5,
+              "jvmBytesPerParse": 9824.0
+            },
+            "CPP_JNI": {
+              "nsPerParse": 2134166.5,
+              "jvmBytesPerParse": 10064.0
+            },
+            "KMP": {
+              "nsPerParse": 2127062.5,
+              "jvmBytesPerParse": 10920.0
+            }
+          },
+          "latencyRatiosToNative": {
+            "NATIVE": 1.0,
+            "OPTIMIZED_NATIVE": 0.9909449393895137,
+            "CPP_JNI": 0.9974197166642325,
+            "KMP": 0.9940996056667154
+          },
+          "latencyRatiosToOptimizedNative": {
+            "NATIVE": 1.0091378039793661,
+            "OPTIMIZED_NATIVE": 1.0,
+            "CPP_JNI": 1.0065339425202653,
+            "KMP": 1.0031834929992631
+          }
+        },
+        {
+          "workload": "bundle-20MiB",
+          "medians": {
+            "NATIVE": {
+              "nsPerParse": 21321104.0,
+              "jvmBytesPerParse": 12128.0
+            },
+            "OPTIMIZED_NATIVE": {
+              "nsPerParse": 21286104.0,
+              "jvmBytesPerParse": 9824.0
+            },
+            "CPP_JNI": {
+              "nsPerParse": 21417583.0,
+              "jvmBytesPerParse": 10064.0
+            },
+            "KMP": {
+              "nsPerParse": 21303104.0,
+              "jvmBytesPerParse": 10896.0
+            }
+          },
+          "latencyRatiosToNative": {
+            "NATIVE": 1.0,
+            "OPTIMIZED_NATIVE": 0.9983584339722746,
+            "CPP_JNI": 1.0045250471082547,
+            "KMP": 0.999155766042884
+          },
+          "latencyRatiosToOptimizedNative": {
+            "NATIVE": 1.0016442651976143,
+            "OPTIMIZED_NATIVE": 1.0,
+            "CPP_JNI": 1.006176752683347,
+            "KMP": 1.000798643095984
+          }
+        },
+        {
+          "workload": "many-128x1KiB",
+          "medians": {
+            "NATIVE": {
+              "nsPerParse": 195271.0,
+              "jvmBytesPerParse": 469996.0
+            },
+            "OPTIMIZED_NATIVE": {
+              "nsPerParse": 154291.5,
+              "jvmBytesPerParse": 230636.0
+            },
+            "CPP_JNI": {
+              "nsPerParse": 211458.25,
+              "jvmBytesPerParse": 254428.0
+            },
+            "KMP": {
+              "nsPerParse": 168968.75,
+              "jvmBytesPerParse": 413196.0
+            }
+          },
+          "latencyRatiosToNative": {
+            "NATIVE": 1.0,
+            "OPTIMIZED_NATIVE": 0.7901403690256106,
+            "CPP_JNI": 1.0828963338130086,
+            "KMP": 0.8653038597641227
+          },
+          "latencyRatiosToOptimizedNative": {
+            "NATIVE": 1.2655979104487285,
+            "OPTIMIZED_NATIVE": 1.0,
+            "CPP_JNI": 1.3705113373063325,
+            "KMP": 1.0951267568206933
+          }
+        },
+        {
+          "workload": "progress-128x128B-plus-2MiB",
+          "medians": {
+            "NATIVE": {
+              "nsPerParse": 2164354.0,
+              "jvmBytesPerParse": 313168.0
+            },
+            "OPTIMIZED_NATIVE": {
+              "nsPerParse": 2148958.0,
+              "jvmBytesPerParse": 145488.0
+            },
+            "CPP_JNI": {
+              "nsPerParse": 2211229.0,
+              "jvmBytesPerParse": 160208.0
+            },
+            "KMP": {
+              "nsPerParse": 2157146.0,
+              "jvmBytesPerParse": 250256.0
+            }
+          },
+          "latencyRatiosToNative": {
+            "NATIVE": 1.0,
+            "OPTIMIZED_NATIVE": 0.9928865610708785,
+            "CPP_JNI": 1.0216577325151062,
+            "KMP": 0.9966696760326638
+          },
+          "latencyRatiosToOptimizedNative": {
+            "NATIVE": 1.0071644024685453,
+            "OPTIMIZED_NATIVE": 1.0,
+            "CPP_JNI": 1.0289772996959456,
+            "KMP": 1.0038102187199565
+          }
+        }
+      ]
+    },
+    {
+      "process": 3,
+      "environment": {
+        "kind": "environment",
+        "seed": 49011,
+        "javaVersion": "17.0.20",
+        "vm": "OpenJDK 64-Bit Server VM",
+        "warmupRounds": 24,
+        "sampleRounds": 40,
+        "allocations": "JVM current-thread allocations; excludes all native/JNI allocations"
+      },
+      "rawSha256": "6a44db12f11d14a08996b08dfac7f8a978e6ffe5aa94a57cdc076f27beed99a7",
+      "workloads": [
+        {
+          "workload": "small-1KiB",
+          "medians": {
+            "NATIVE": {
+              "nsPerParse": 3205.40625,
+              "jvmBytesPerParse": 4152.875
+            },
+            "OPTIMIZED_NATIVE": {
+              "nsPerParse": 2125.9765625,
+              "jvmBytesPerParse": 2216.875
+            },
+            "CPP_JNI": {
+              "nsPerParse": 2793.9375,
+              "jvmBytesPerParse": 2504.875
+            },
+            "KMP": {
+              "nsPerParse": 2608.71875,
+              "jvmBytesPerParse": 3632.875
+            }
+          },
+          "latencyRatiosToNative": {
+            "NATIVE": 1.0,
+            "OPTIMIZED_NATIVE": 0.6632471508096672,
+            "CPP_JNI": 0.8716328858471527,
+            "KMP": 0.8138496485429889
+          },
+          "latencyRatiosToOptimizedNative": {
+            "NATIVE": 1.5077335783187873,
+            "OPTIMIZED_NATIVE": 1.0,
+            "CPP_JNI": 1.3141901699586587,
+            "KMP": 1.2270684428112082
+          }
+        },
+        {
+          "workload": "bundle-2MiB",
+          "medians": {
+            "NATIVE": {
+              "nsPerParse": 2143708.5,
+              "jvmBytesPerParse": 12112.0
+            },
+            "OPTIMIZED_NATIVE": {
+              "nsPerParse": 2133833.5,
+              "jvmBytesPerParse": 9824.0
+            },
+            "CPP_JNI": {
+              "nsPerParse": 2142166.5,
+              "jvmBytesPerParse": 10064.0
+            },
+            "KMP": {
+              "nsPerParse": 2127187.5,
+              "jvmBytesPerParse": 10920.0
+            }
+          },
+          "latencyRatiosToNative": {
+            "NATIVE": 1.0,
+            "OPTIMIZED_NATIVE": 0.9953934968303759,
+            "CPP_JNI": 0.9992806857835382,
+            "KMP": 0.9922932618870522
+          },
+          "latencyRatiosToOptimizedNative": {
+            "NATIVE": 1.0046278212428477,
+            "OPTIMIZED_NATIVE": 1.0,
+            "CPP_JNI": 1.0039051781687747,
+            "KMP": 0.9968854177235478
+          }
+        },
+        {
+          "workload": "bundle-20MiB",
+          "medians": {
+            "NATIVE": {
+              "nsPerParse": 21258250.0,
+              "jvmBytesPerParse": 11984.0
+            },
+            "OPTIMIZED_NATIVE": {
+              "nsPerParse": 21245416.5,
+              "jvmBytesPerParse": 9824.0
+            },
+            "CPP_JNI": {
+              "nsPerParse": 21363979.0,
+              "jvmBytesPerParse": 10064.0
+            },
+            "KMP": {
+              "nsPerParse": 21253395.5,
+              "jvmBytesPerParse": 10896.0
+            }
+          },
+          "latencyRatiosToNative": {
+            "NATIVE": 1.0,
+            "OPTIMIZED_NATIVE": 0.9993963049639552,
+            "CPP_JNI": 1.0049735514447333,
+            "KMP": 0.9997716415979678
+          },
+          "latencyRatiosToOptimizedNative": {
+            "NATIVE": 1.0006040597038894,
+            "OPTIMIZED_NATIVE": 1.0,
+            "CPP_JNI": 1.0055806154706357,
+            "KMP": 1.0003755633597486
+          }
+        },
+        {
+          "workload": "many-128x1KiB",
+          "medians": {
+            "NATIVE": {
+              "nsPerParse": 203395.5,
+              "jvmBytesPerParse": 469996.0
+            },
+            "OPTIMIZED_NATIVE": {
+              "nsPerParse": 154802.25,
+              "jvmBytesPerParse": 230636.0
+            },
+            "CPP_JNI": {
+              "nsPerParse": 212395.75,
+              "jvmBytesPerParse": 254428.0
+            },
+            "KMP": {
+              "nsPerParse": 168146.0,
+              "jvmBytesPerParse": 413196.0
+            }
+          },
+          "latencyRatiosToNative": {
+            "NATIVE": 1.0,
+            "OPTIMIZED_NATIVE": 0.7610898471205115,
+            "CPP_JNI": 1.0442499956980367,
+            "KMP": 0.826694789216084
+          },
+          "latencyRatiosToOptimizedNative": {
+            "NATIVE": 1.313905321143588,
+            "OPTIMIZED_NATIVE": 1.0,
+            "CPP_JNI": 1.3720456259518192,
+            "KMP": 1.0861986825126895
+          }
+        },
+        {
+          "workload": "progress-128x128B-plus-2MiB",
+          "medians": {
+            "NATIVE": {
+              "nsPerParse": 2163229.5,
+              "jvmBytesPerParse": 313168.0
+            },
+            "OPTIMIZED_NATIVE": {
+              "nsPerParse": 2142520.5,
+              "jvmBytesPerParse": 145488.0
+            },
+            "CPP_JNI": {
+              "nsPerParse": 2212124.5,
+              "jvmBytesPerParse": 160208.0
+            },
+            "KMP": {
+              "nsPerParse": 2150854.5,
+              "jvmBytesPerParse": 250256.0
+            }
+          },
+          "latencyRatiosToNative": {
+            "NATIVE": 1.0,
+            "OPTIMIZED_NATIVE": 0.9904268132438098,
+            "CPP_JNI": 1.0226027797790294,
+            "KMP": 0.9942793864451275
+          },
+          "latencyRatiosToOptimizedNative": {
+            "NATIVE": 1.0096657184843738,
+            "OPTIMIZED_NATIVE": 1.0,
+            "CPP_JNI": 1.0324869703697117,
+            "KMP": 1.0038898110893222
+          }
+        }
+      ]
+    }
+  ],
+  "commands": [
+    [
+      "/opt/homebrew/Cellar/openjdk@17/17.0.20/libexec/openjdk.jdk/Contents/Home/bin/java",
+      "-Xms512m",
+      "-Xmx512m",
+      "-Dmultipart.jni.library=<EVIDENCE>/android/libmultipart.dylib",
+      "-cp",
+      "<EVIDENCE>/android/fixture/build/classes/java/main:<EVIDENCE>/android/fixture/build/classes/kotlin/main:<EVIDENCE>/android/fixture/build/resources/main:<REPO>/packages/react-native/ReactShared/build/android/react-native-shared.jar:<GRADLE_USER_HOME>/caches/modules-2/files-2.1/com.squareup.okio/okio/2.9.0/dcc813b08ce5933f8bdfd1dfbab4ad4bd170e7a/okio-jvm-2.9.0.jar:<GRADLE_USER_HOME>/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar:<GRADLE_USER_HOME>/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar",
+      "com.facebook.react.devsupport.AndroidComparisonKt",
+      "47017"
+    ],
+    [
+      "/opt/homebrew/Cellar/openjdk@17/17.0.20/libexec/openjdk.jdk/Contents/Home/bin/java",
+      "-Xms512m",
+      "-Xmx512m",
+      "-Dmultipart.jni.library=<EVIDENCE>/android/libmultipart.dylib",
+      "-cp",
+      "<EVIDENCE>/android/fixture/build/classes/java/main:<EVIDENCE>/android/fixture/build/classes/kotlin/main:<EVIDENCE>/android/fixture/build/resources/main:<REPO>/packages/react-native/ReactShared/build/android/react-native-shared.jar:<GRADLE_USER_HOME>/caches/modules-2/files-2.1/com.squareup.okio/okio/2.9.0/dcc813b08ce5933f8bdfd1dfbab4ad4bd170e7a/okio-jvm-2.9.0.jar:<GRADLE_USER_HOME>/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar:<GRADLE_USER_HOME>/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar",
+      "com.facebook.react.devsupport.AndroidComparisonKt",
+      "48014"
+    ],
+    [
+      "/opt/homebrew/Cellar/openjdk@17/17.0.20/libexec/openjdk.jdk/Contents/Home/bin/java",
+      "-Xms512m",
+      "-Xmx512m",
+      "-Dmultipart.jni.library=<EVIDENCE>/android/libmultipart.dylib",
+      "-cp",
+      "<EVIDENCE>/android/fixture/build/classes/java/main:<EVIDENCE>/android/fixture/build/classes/kotlin/main:<EVIDENCE>/android/fixture/build/resources/main:<REPO>/packages/react-native/ReactShared/build/android/react-native-shared.jar:<GRADLE_USER_HOME>/caches/modules-2/files-2.1/com.squareup.okio/okio/2.9.0/dcc813b08ce5933f8bdfd1dfbab4ad4bd170e7a/okio-jvm-2.9.0.jar:<GRADLE_USER_HOME>/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.0/fdfc65fbc42fda253a26f61dac3c0aca335fae96/kotlin-stdlib-2.2.0.jar:<GRADLE_USER_HOME>/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar",
+      "com.facebook.react.devsupport.AndroidComparisonKt",
+      "49011"
+    ]
+  ],
+  "limitations": [
+    "Host JVM; no Android ART, physical device, network or frame-time measurement",
+    "Current-thread JVM allocation counter excludes native C++ vector/state and any JNI string/array copies",
+    "Buffers, UTF-8 decoding, callbacks, body reads and draining retained; source construction excluded",
+    "Development host samples include normal system activity; no universal confidence or device claims"
+  ]
+}

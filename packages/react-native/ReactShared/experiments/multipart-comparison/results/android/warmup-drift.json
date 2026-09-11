@@ -1,0 +1,98 @@
+[
+  {
+    "process": 1,
+    "implementation": "NATIVE",
+    "first10MedianNs": 3982.4140625,
+    "last10MedianNs": 4567.0625,
+    "first10MedianJvmBytes": 4152.875,
+    "last10MedianJvmBytes": 4152.875
+  },
+  {
+    "process": 1,
+    "implementation": "OPTIMIZED_NATIVE",
+    "first10MedianNs": 2201.828125,
+    "last10MedianNs": 2118.4921875,
+    "first10MedianJvmBytes": 2216.875,
+    "last10MedianJvmBytes": 2216.875
+  },
+  {
+    "process": 1,
+    "implementation": "CPP_JNI",
+    "first10MedianNs": 2741.859375,
+    "last10MedianNs": 2792.96875,
+    "first10MedianJvmBytes": 2504.875,
+    "last10MedianJvmBytes": 2504.875
+  },
+  {
+    "process": 1,
+    "implementation": "KMP",
+    "first10MedianNs": 3104.171875,
+    "last10MedianNs": 2396.15625,
+    "first10MedianJvmBytes": 3632.875,
+    "last10MedianJvmBytes": 3632.875
+  },
+  {
+    "process": 2,
+    "implementation": "NATIVE",
+    "first10MedianNs": 3531.5703125,
+    "last10MedianNs": 2848.6328125,
+    "first10MedianJvmBytes": 4152.875,
+    "last10MedianJvmBytes": 4152.875
+  },
+  {
+    "process": 2,
+    "implementation": "OPTIMIZED_NATIVE",
+    "first10MedianNs": 2155.28125,
+    "last10MedianNs": 2081.0546875,
+    "first10MedianJvmBytes": 2216.875,
+    "last10MedianJvmBytes": 2216.875
+  },
+  {
+    "process": 2,
+    "implementation": "CPP_JNI",
+    "first10MedianNs": 2628.25,
+    "last10MedianNs": 2703.1171875,
+    "first10MedianJvmBytes": 2504.875,
+    "last10MedianJvmBytes": 2504.875
+  },
+  {
+    "process": 2,
+    "implementation": "KMP",
+    "first10MedianNs": 3295.5703125,
+    "last10MedianNs": 2413.09375,
+    "first10MedianJvmBytes": 3696.875,
+    "last10MedianJvmBytes": 3632.875
+  },
+  {
+    "process": 3,
+    "implementation": "NATIVE",
+    "first10MedianNs": 3575.203125,
+    "last10MedianNs": 2991.8671875,
+    "first10MedianJvmBytes": 4152.875,
+    "last10MedianJvmBytes": 4152.875
+  },
+  {
+    "process": 3,
+    "implementation": "OPTIMIZED_NATIVE",
+    "first10MedianNs": 2940.4296875,
+    "last10MedianNs": 2080.40625,
+    "first10MedianJvmBytes": 2216.875,
+    "last10MedianJvmBytes": 2216.875
+  },
+  {
+    "process": 3,
+    "implementation": "CPP_JNI",
+    "first10MedianNs": 2823.890625,
+    "last10MedianNs": 2786.78125,
+    "first10MedianJvmBytes": 2504.875,
+    "last10MedianJvmBytes": 2504.875
+  },
+  {
+    "process": 3,
+    "implementation": "KMP",
+    "first10MedianNs": 3236.6484375,
+    "last10MedianNs": 2440.109375,
+    "first10MedianJvmBytes": 3696.875,
+    "last10MedianJvmBytes": 3632.875
+  }
+]
